@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+:root{
+    /*variables de adobe*/
+    ---b7b7b7-texto-2: #B7B7B7;
+    ---2d2d2d-texto: #2D2D2D;    
+    ---0d665d-texto-1: #0D665D;
+    ---15b2aa-texto-2: #15B2AA;
+
+    /*variables propias*/
+    --black: #000000;
+    --main-color: #2E968C;
+    --white: #ffffff;
+    --main-black: #2D2D2D;
+    --font-color-light: #B7B7B7;
+    --font-green: #0D665D;
+    --font-green-light: #15B2AA;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.color-white{
+    color: var(--white);
+}
+
+.all-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-red{
+    border: 1px solid red;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.button-gral{
+    background-color: var(--main-color);
+    color: var(--white);
+    border: 0px;
+    padding: 1rem 2rem;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+/* -------------------- TOPBAR ------------------------*/
+.topbar{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.topbar-top{
+    height: 55px;
+    background-color: var(--black);
+}
+
+.topbar-top__contacto{
+    width: calc(100% - 192px);
+}
+
+#btnIngresoAlumnos{
+    width: 192px;    
+    height: 100%;
+    padding: 0px;
+}
+
+.topbar-top__container{
+    width: 100%;
+    padding-left: 207px;
+    padding-right: 3rem;
+}
+
+.topbar-top__items{
+    display: flex;
+    gap: 4rem;
+}
+
+.topbar-menu{
+    height: 124px;
+    background-color: var(--white);
+}
+
+.topbar-menu__home{
+    width: 40%;
+}
+
+.topbar-menu__navbar{
+    width: 60%;
+}
+
+.topbar-menu__navbar ul {
+    list-style: none;
+    margin: 0px;
+}
+
+/*----------------- CAROUSEL ------------------*/
+
+#carousel{
+    height: 636px;
+    background-image: url("../img/banner-1.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 177px;
+}
+
+.intro-container{
+    max-width: 1170px;
+    width: 100%;
+    height: 590px;
+    margin: auto;
+    position: relative;
+    top: -3rem;
+}
+
+.intro__servicios{
+    min-height: 140px;
+    height: 140px;
+    background-color: var(--white);
+    padding: 2rem 4rem;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.servicio-intro{
+    /* min-width: 100px */
+    display: flex;
+    /* justify-content: center; */
+    height: 100%;
+}
+
+.servicio-intro__icon{
+    width: 3rem;
+    height: 100%;
+}
+
+.servicio-intro__title{
+    font-weight: bold;
+    color: var(--font-green);
+}
+
+.servicio-intro__text{
+    width: calc(100% - 3rem);
+}
+
+.servicio-intro__description{
+    font-size: 14px;
+    color: var(--font-color-light);
+}
+
+
+.intro__imagenes{
+    height: calc(100% - 140px);
+    display: flex;
+}
+
+.intro__imagenes-text{
+    padding: 4rem 5rem;
+    background-image: url("../img/img-intro-blur.png");
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
+}
+
+/* #btnQuieroInscribirme{
+    width: 192px;
+    height: 56px;
+} */
+
+/* -------------  ACERCA ----------*/
+
+#acerca{
+    height: 538px;
+    width: 100%;
+    display: flex;
+    padding: 4rem 6rem;
+    color: var(--white);
+    background-position: center;    
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.271) 0%,
+    rgba(39, 115, 104, 0.588) 20%, rgba(0, 2, 1, 0.9) 60%), url("../img/fondo-acerca.png") center;   
+    background-size: cover;
+    /* background: #8A2387;  
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);  */
+
+}
+
+#acercaBottom{
+    height: 400px;
+    background-color: var(--main-black);
+}
+
+.contenedor-acerca{
+    height: 100%;
+    padding: 5rem 0px;
+    color: var(--white);
+}
+
+/* -------------  EVENTOS ----------*/
+
+
+#eventos{
+    height: 850px;
+    width: 100%;
+
+}
+
+.contenedor-eventos{
+    padding: 50px;
+}
+
+.container-eventos-top{
+    height: 220px;
+}
+
+.card-eventos-top{
+    padding: 3rem 4rem;
+}
+
+.card-eventos-top:nth-child(1){
+    background:  linear-gradient(rgba(39, 115, 104, 0.7), rgba(39, 115, 104, 0.7)), url("../img/card-eventos-top1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+}
+
+.card-eventos-top:nth-child(2){
+    background-color: var(--main-black);
+    color: var(--white);
+}
+
+.card-eventos-top:nth-child(3){
+    background:  linear-gradient(rgba(39, 115, 104, 0.7), rgba(39, 115, 104, 0.7)), url("../img/card-eventos-top2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+}
+
+.cards-eventos-bottom{
+    height: 480px;
+    margin-top: 50px;
+}
+
+#encuentraOferta{
+    height: 672px;
+    width: 100%;
+}
+
+
+
+.title-about-bottom{
+    font-size: 20px;
+}
+
+.text-about-bottom{
+    color: var(--font-green-light);
+}
+
+.card-items-acerca{
+    gap: 1rem;
+    padding: 1rem;
+}
