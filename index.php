@@ -7,6 +7,8 @@
     <title>Landing index</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+
 
 </head>
 <body>
@@ -55,7 +57,7 @@
                                 <a href="">Directorio</a>
                             </li>
                             <li>
-                                <a href="">Aliados</a>
+                                <a href="">Aliados <i class="fab fa-twitter"></i></a>
                             </li>
                         </ul>
                     </nav>
@@ -115,7 +117,7 @@
                 </div>
                 <div class="intro__imagenes border-red">
                     <div class="col-6">
-                        imagen
+                        imagen <i class="fas fa-wreath"></i>
                     </div>
                     <div class="intro__imagenes-text col-6">
                         <h2 class="bold">Transforma tu futuro </h2>
@@ -195,7 +197,7 @@
                 </div>
             </div>
         </section>
-        <section id="eventos" class="border-red">
+        <section id="eventos" class="">
             <div class="container contenedor-eventos">
                 <div class="d-flex w-100 container-eventos-top">
                     <div class="col-4 card-eventos-top">
@@ -219,21 +221,117 @@
                 </div>
 
                 <div class="d-flex w-100 cards-eventos-bottom border-red">
-                    <div class="col-4">
-                        Estudios oficiales
+                    <div class="col-4 eventos-left">
+                        <div class="eventos-left__img">
+
+                        </div>
+                        <div class="mt-3">
+                            <span class="f-20 bold">Inscribe a tu empresa</span>
+                            <p class="mt-3">Forma parte de las empresas e instituciones que a través de Grupo Index se suman a este esfuerzo por fortalecer la industria a través de la educación.</p>
+                            <button class="button-gral">Hablar con un asesor</button>
+                        </div>
+                        <div></div>
                     </div>
                     <div class="col-4">
-                        Programas ejecutivos
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="f-20 bold header-proximos-eventos"><p>Próximos Eventos</p></div>
+                            <div class="eventos-header-divider"></div>
+                        </div>
+                        <div class="evento">
+                            <div>
+                                07
+                            </div>
+                            <div>
+                                <div class="title-evento">Plática de Inducción Bachillerato</div>
+                                <div class="d-flex">
+                                    <div>7:00 am - 11:30 pm</div>
+                                    <div>CEDIS TIJUANA</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="evento">
+                            <div>
+                                07
+                            </div>
+                            <div>
+                                <div class="title-evento">Plática de Inducción Bachillerato</div>
+                                <div class="d-flex">
+                                    <div>7:00 am - 11:30 pm</div>
+                                    <div>CEDIS TIJUANA</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="evento">
+                            <div>
+                                07
+                            </div>
+                            <div>
+                                <div class="title-evento">Plática de Inducción Bachillerato</div>
+                                <div class="d-flex">
+                                    <div>7:00 am - 11:30 pm</div>
+                                    <div>CEDIS TIJUANA</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            Ver todos los eventos
+                        </div>
                     </div>
-                    <div class="col-4">
-                        Masters
+                    <div class="col-4 eventos-right">
+                        <div class="eventos-right__img">
+
+                        </div>
                     </div>
                 </div>
 
             </div>
         </section>
         <section id="encuentraOferta" class="border-red">
-
+            <div class="containerOferta border-red">
+                <div class="container-form-oferta border-red">
+                    <h3 class="title-oferta">Oferta académica por empresa participante</h3>
+                    <h2 class="description-oferta bold">Encuentra la oferta académica que ofrece tu institución.</h2>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="button-gral" type="button" id="btnBuscarCursos">Buscar cursos</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
