@@ -53,6 +53,23 @@ body {
   font-size: 20px;
 }
 
+.f-55{
+    font-size: 55px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.bg-center-cover{
+    background-position: center;
+    background-size: cover;
+}
+
+.f-color-black-light{
+    color: var(--font-color-light);
+}
+
 /* -------------------- TOPBAR ------------------------*/
 .topbar {
   position: fixed;
@@ -370,6 +387,119 @@ body {
 
 #btnBuscarCursos{
     width: 100%;
+}
+
+#ofertaAcademicaEmpresas{
+    width: 100%;
+    height: 1094px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-img-oferta-academica{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+}
+
+.card-oferta-academica{
+    height: 347px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.card-oferta-academica__img{
+    height: 282px;    
+}
+
+.card-oferta-academica:nth-child(1) .card-oferta-academica__img{
+    background: url("../img/BajaCalifornia.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(2) .card-oferta-academica__img{
+    background: url("../img/NuevoLeon.png");
+    background-position: center;
+    background-size: cover;   
+}
+
+.card-oferta-academica:nth-child(3) .card-oferta-academica__img{
+    background: url("../img/Chihuahua.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(4) .card-oferta-academica__img{
+    background: url("../img/Tamaulipas.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(5) .card-oferta-academica__img{
+    background: url("../img/Coahuila.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(6) .card-oferta-academica__img{
+    background: url("../img/Sonora.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(7) .card-oferta-academica__img{
+    background: url("../img/SanLuis.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(1):hover .card-oferta-academica__img{
+    background: url("../img/BajaCaliforniaColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(2):hover .card-oferta-academica__img{
+    background: url("../img/NuevoLeonColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(3):hover .card-oferta-academica__img{
+    background: url("../img/ChihuahuaColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(4):hover .card-oferta-academica__img{
+    background: url("../img/TamaulipasColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(5):hover .card-oferta-academica__img{
+    background: url("../img/CoahuilaColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(6):hover .card-oferta-academica__img{
+    background: url("../img/SonoraColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.card-oferta-academica:nth-child(7):hover .card-oferta-academica__img{
+    background: url("../img/SanLuisColor.png");
+    background-position: center;
+    background-size: cover;    
+}
+
+.btn-ver-cursos{
+    color: var(--font-green);
+    border-bottom: 3px solid var(--font-green);
 }
 
 footer  section:first-of-type {
