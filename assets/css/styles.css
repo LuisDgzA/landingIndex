@@ -132,6 +132,13 @@ body {
     margin-top: 177px;
 }
 
+.menu-empresas-participantes {
+    height: calc(100% - 3rem);
+    width: 80%;
+    background-color: #f3f3f3;
+    display: none;
+}
+
 .intro-container {
     max-width: 1170px;
     width: 100%;
