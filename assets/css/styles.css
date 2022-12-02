@@ -1,193 +1,193 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
 :root {
-  /*variables de adobe*/
-  ---b7b7b7-texto-2: #b7b7b7;
-  ---2d2d2d-texto: #2d2d2d;
-  ---0d665d-texto-1: #0d665d;
-  ---15b2aa-texto-2: #15b2aa;
+    /*variables de adobe*/
+    ---b7b7b7-texto-2: #b7b7b7;
+    ---2d2d2d-texto: #2d2d2d;
+    ---0d665d-texto-1: #0d665d;
+    ---15b2aa-texto-2: #15b2aa;
 
-  /*variables propias*/
-  --black: #000000;
-  --main-color: #2e968c;
-  --white: #ffffff;
-  --main-black: #2d2d2d;
-  --font-color-light: #b7b7b7;
-  --font-green: #0d665d;
-  --font-green-light: #15b2aa;
+    /*variables propias*/
+    --black: #000000;
+    --main-color: #2e968c;
+    --white: #ffffff;
+    --main-black: #2d2d2d;
+    --font-color-light: #b7b7b7;
+    --font-green: #0d665d;
+    --font-green-light: #15b2aa;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .upper {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .color-white {
-  color: var(--white);
+    color: var(--white);
 }
 
 .all-centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .border-red {
-  border: 1px solid red;
+    border: 1px solid red;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .button-gral {
-  background-color: var(--main-color);
-  color: var(--white);
-  border: 0px;
-  padding: 1rem 2rem;
+    background-color: var(--main-color);
+    color: var(--white);
+    border: 0px;
+    padding: 1rem 2rem;
 }
 
 .f-20 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
-.f-55{
+.f-55 {
     font-size: 55px;
 }
 
-.mt-50{
+.mt-50 {
     margin-top: 50px;
 }
 
-.bg-center-cover{
+.bg-center-cover {
     background-position: center;
     background-size: cover;
 }
 
-.f-color-black-light{
+.f-color-black-light {
     color: var(--font-color-light);
 }
 
 /* -------------------- TOPBAR ------------------------*/
 .topbar {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 
 .topbar-top {
-  height: 55px;
-  background-color: var(--black);
+    height: 55px;
+    background-color: var(--black);
 }
 
 .topbar-top__contacto {
-  width: calc(100% - 192px);
+    width: calc(100% - 192px);
 }
 
 #btnIngresoAlumnos {
-  width: 192px;
-  height: 100%;
-  padding: 0px;
+    width: 192px;
+    height: 100%;
+    padding: 0px;
 }
 
 .topbar-top__container {
-  width: 100%;
-  padding-left: 207px;
-  padding-right: 3rem;
+    width: 100%;
+    padding-left: 207px;
+    padding-right: 3rem;
 }
 
 .topbar-top__items {
-  display: flex;
-  gap: 4rem;
+    display: flex;
+    gap: 4rem;
 }
 
 .topbar-menu {
-  height: 124px;
-  background-color: var(--white);
+    height: 124px;
+    background-color: var(--white);
 }
 
 .topbar-menu__home {
-  width: 40%;
+    width: 40%;
 }
 
 .topbar-menu__navbar {
-  width: 60%;
+    width: 60%;
 }
 
 .topbar-menu__navbar ul {
-  list-style: none;
-  margin: 0px;
+    list-style: none;
+    margin: 0px;
 }
 
 /*----------------- CAROUSEL ------------------*/
 
 #carousel {
-  height: 636px;
-  background-image: url("../img/banner-1.png");
-  background-position: center;
-  background-size: cover;
-  margin-top: 177px;
+    height: 636px;
+    background-image: url("../img/banner-1.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 177px;
 }
 
 .intro-container {
-  max-width: 1170px;
-  width: 100%;
-  height: 590px;
-  margin: auto;
-  position: relative;
-  top: -3rem;
+    max-width: 1170px;
+    width: 100%;
+    height: 590px;
+    margin: auto;
+    position: relative;
+    top: -3rem;
 }
 
 .intro__servicios {
-  min-height: 140px;
-  height: 140px;
-  background-color: var(--white);
-  padding: 2rem 4rem;
-  display: flex;
-  /* justify-content: space-around; */
-  align-items: center;
+    min-height: 140px;
+    height: 140px;
+    background-color: var(--white);
+    padding: 2rem 4rem;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 
 .servicio-intro {
-  /* min-width: 100px */
-  display: flex;
-  /* justify-content: center; */
-  height: 100%;
+    /* min-width: 100px */
+    display: flex;
+    /* justify-content: center; */
+    height: 100%;
 }
 
 .servicio-intro__icon {
-  width: 3rem;
-  height: 100%;
+    width: 3rem;
+    height: 100%;
 }
 
 .servicio-intro__title {
-  font-weight: bold;
-  color: var(--font-green);
+    font-weight: bold;
+    color: var(--font-green);
 }
 
 .servicio-intro__text {
-  width: calc(100% - 3rem);
+    width: calc(100% - 3rem);
 }
 
 .servicio-intro__description {
-  font-size: 14px;
-  color: var(--font-color-light);
+    font-size: 14px;
+    color: var(--font-color-light);
 }
 
 .intro__imagenes {
-  height: calc(100% - 140px);
-  display: flex;
+    height: calc(100% - 140px);
+    display: flex;
 }
 
 .intro__imagenes-text {
-  padding: 4rem 5rem;
-  background-image: url("../img/img-intro-blur.png");
-  background-position: center;
-  background-size: cover;
-  color: var(--white);
+    padding: 4rem 5rem;
+    background-image: url("../img/img-intro-blur.png");
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
 }
 
 /* #btnQuieroInscribirme{
@@ -198,123 +198,128 @@ body {
 /* -------------  ACERCA ----------*/
 
 #acerca {
-  height: 538px;
-  width: 100%;
-  display: flex;
-  padding: 4rem 6rem;
-  color: var(--white);
-  background-position: center;
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.271) 0%,
-      rgba(39, 115, 104, 0.588) 20%,
-      rgba(0, 2, 1, 0.9) 60%
-    ),
-    url("../img/fondo-acerca.png") center;
-  background-size: cover;
-  /* background: #8A2387;  
+    height: 538px;
+    width: 100%;
+    display: flex;
+    padding: 4rem 6rem;
+    color: var(--white);
+    background-position: center;
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.271) 0%,
+            rgba(39, 115, 104, 0.588) 20%,
+            rgba(0, 2, 1, 0.9) 60%
+        ),
+        url("../img/fondo-acerca.png") center;
+    background-size: cover;
+    /* background: #8A2387;  
     background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
     background: linear-gradient(to right, #F27121, #E94057, #8A2387);  */
 }
 
 #acercaBottom {
-  height: 400px;
-  background-color: var(--main-black);
+    height: 400px;
+    background-color: var(--main-black);
 }
 
 .contenedor-acerca {
-  height: 100%;
-  padding: 5rem 0px;
-  color: var(--white);
+    height: 100%;
+    padding: 5rem 0px;
+    color: var(--white);
 }
 
 /* -------------  EVENTOS ----------*/
 
 #eventos {
-  height: 850px;
-  width: 100%;
+    height: 850px;
+    width: 100%;
 }
 
 .contenedor-eventos {
-  padding: 50px;
+    padding: 50px;
 }
 
 .container-eventos-top {
-  height: 220px;
+    height: 220px;
 }
 
 .card-eventos-top {
-  padding: 3rem 4rem;
+    padding: 3rem 4rem;
 }
 
 .card-eventos-top:nth-child(1) {
-  background: linear-gradient(rgba(39, 115, 104, 0.7), rgba(39, 115, 104, 0.7)),
-    url("../img/card-eventos-top1.jpg");
-  background-size: cover;
-  background-position: center;
-  color: var(--white);
+    background: linear-gradient(
+            rgba(39, 115, 104, 0.7),
+            rgba(39, 115, 104, 0.7)
+        ),
+        url("../img/card-eventos-top1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
 }
 
 .card-eventos-top:nth-child(2) {
-  background-color: var(--main-black);
-  color: var(--white);
+    background-color: var(--main-black);
+    color: var(--white);
 }
 
 .card-eventos-top:nth-child(3) {
-  background: linear-gradient(rgba(39, 115, 104, 0.7), rgba(39, 115, 104, 0.7)),
-    url("../img/card-eventos-top2.jpg");
-  background-size: cover;
-  background-position: center;
-  color: var(--white);
+    background: linear-gradient(
+            rgba(39, 115, 104, 0.7),
+            rgba(39, 115, 104, 0.7)
+        ),
+        url("../img/card-eventos-top2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
 }
 
 .cards-eventos-bottom {
-  height: 480px;
-  margin-top: 50px;
+    height: 480px;
+    margin-top: 50px;
 }
 
 #encuentraOferta {
-  height: 672px;
-  width: 100%;
+    height: 672px;
+    width: 100%;
 }
 
 .title-about-bottom {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .text-about-bottom {
-  color: var(--font-green-light);
+    color: var(--font-green-light);
 }
 
-#encuentraOferta{
+#encuentraOferta {
     height: 672px;
     width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.271) 0%,
-    rgba(39, 115, 104, 0.588) 20%, rgba(0, 2, 1, 0.9) 60%), url("../img/background-encuentra-oferta.jpg") center;
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.271) 0%,
+            rgba(39, 115, 104, 0.588) 20%,
+            rgba(0, 2, 1, 0.9) 60%
+        ),
+        url("../img/background-encuentra-oferta.jpg") center;
     background-size: cover;
     color: var(--white);
 }
 
-
-
-
-
-
-
-.card-items-acerca{
+.card-items-acerca {
     gap: 1rem;
     padding: 1rem;
 }
 
-.eventos-left{
+.eventos-left {
     padding-right: 2rem;
 }
 
-.eventos-right{
-    padding-left: 1.5rem;    
+.eventos-right {
+    padding-left: 1.5rem;
 }
 
-.eventos-right__img{
+.eventos-right__img {
     width: 100%;
     height: 100%;
     background: url("../img/cartel-actividades.png");
@@ -322,7 +327,7 @@ body {
     background-position: top;
 }
 
-.eventos-left__img{
+.eventos-left__img {
     width: 100%;
     height: 188px;
     background: url("../img/inscribe-tu-empresa.jpg");
@@ -330,20 +335,20 @@ body {
     background-position: center;
 }
 
-.header-proximos-eventos > p{
+.header-proximos-eventos > p {
     width: max-content;
     margin: 0;
     padding: 0;
 }
 
-.eventos-header-divider{
+.eventos-header-divider {
     width: 40%;
     height: 4px;
     background-color: var(---b7b7b7-texto-2);
     /* padding-left: 2rem; */
 }
 
-.evento{
+.evento {
     display: flex;
     width: calc(100% - 3rem);
     justify-content: space-between;
@@ -351,45 +356,42 @@ body {
     margin-top: 2rem;
 }
 
-.title-evento{
+.title-evento {
     font-weight: bold;
 }
 
-
-
 /*------------- OFERTA -----------*/
 
-.containerOferta{
+.containerOferta {
     position: relative;
     width: 100%;
     max-width: 60%;
     height: 100%;
     margin-left: auto;
-    
 }
 
-.containerOferta form{
+.containerOferta form {
     padding: 0px 2rem 0px 0px;
 }
 
-.container-form-oferta{
+.container-form-oferta {
     width: 800px;
     padding-top: 5rem;
 }
 
-.title-oferta{
+.title-oferta {
     font-size: 30px;
 }
 
-.description-oferta{
+.description-oferta {
     font-size: 55px;
 }
 
-#btnBuscarCursos{
+#btnBuscarCursos {
     width: 100%;
 }
 
-#ofertaAcademicaEmpresas{
+#ofertaAcademicaEmpresas {
     width: 100%;
     height: 1094px;
     display: flex;
@@ -397,134 +399,176 @@ body {
     gap: 50px;
 }
 
-.container-img-oferta-academica{
+.container-img-oferta-academica {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 50px;
 }
 
-.card-oferta-academica{
+.card-oferta-academica {
     height: 347px;
     width: 300px;
-    border: 1px solid red;
 }
 
-.card-oferta-academica__img{
-    height: 282px;    
+.card-oferta-academica__img {
+    height: 282px;
 }
 
-.card-oferta-academica:nth-child(1) .card-oferta-academica__img{
+.card-oferta-academica__buttons {
+    height: 65px;
+    padding: 0.5rem 0px;
+}
+
+.card-oferta-academica:nth-child(1) .card-oferta-academica__img {
     background: url("../img/BajaCalifornia.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(2) .card-oferta-academica__img{
+.card-oferta-academica:nth-child(2) .card-oferta-academica__img {
     background: url("../img/NuevoLeon.png");
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(3) .card-oferta-academica__img{
+.card-oferta-academica:nth-child(3) .card-oferta-academica__img {
     background: url("../img/Chihuahua.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(4) .card-oferta-academica__img{
+.card-oferta-academica:nth-child(4) .card-oferta-academica__img {
     background: url("../img/Tamaulipas.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(5) .card-oferta-academica__img{
+.card-oferta-academica:nth-child(5) .card-oferta-academica__img {
     background: url("../img/Coahuila.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(6) .card-oferta-academica__img{
+.card-oferta-academica:nth-child(6) .card-oferta-academica__img {
     background: url("../img/Sonora.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(7) .card-oferta-academica__img{
+.card-oferta-academica:nth-child(7) .card-oferta-academica__img {
     background: url("../img/SanLuis.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(1):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(1):hover .card-oferta-academica__img {
     background: url("../img/BajaCaliforniaColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(2):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(2):hover .card-oferta-academica__img {
     background: url("../img/NuevoLeonColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(3):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(3):hover .card-oferta-academica__img {
     background: url("../img/ChihuahuaColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(4):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(4):hover .card-oferta-academica__img {
     background: url("../img/TamaulipasColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(5):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(5):hover .card-oferta-academica__img {
     background: url("../img/CoahuilaColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(6):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(6):hover .card-oferta-academica__img {
     background: url("../img/SonoraColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.card-oferta-academica:nth-child(7):hover .card-oferta-academica__img{
+.card-oferta-academica:nth-child(7):hover .card-oferta-academica__img {
     background: url("../img/SanLuisColor.png");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
-.btn-ver-cursos{
+.container-ver-cursos {
+}
+
+.btn-styless {
+    background-color: var(--white);
+    border: none;
+}
+
+.btn-ver-cursos {
+    background-color: var(--white);
     color: var(--font-green);
     border-bottom: 3px solid var(--font-green);
+    padding-bottom: 0.5rem;
 }
 
-footer  section:first-of-type {
-  background-color: var(--main-black);
-  color: var(--white);
+#estudiaAcademiaGlobal {
+    height: 447px;
+    width: 100%;
+    display: flex;
+    padding: 4rem 6rem;
+    color: var(--white);
+    background-position: center;
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.271) 0%,
+            rgba(39, 115, 104, 0.588) 20%,
+            rgba(0, 2, 1, 0.9) 60%
+        ),
+        url("../img/background-academia-global.jpg") center;
+    background-size: cover;
 }
 
-footer  section:first-of-type h5 {
-  padding-bottom: 8px;
-  font-size: 1rem;
-  border-bottom: 3px solid var(--font-green-light);
+#empresas {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer  section:first-of-type img {
-  width: inherit;
+footer {
+    border-top: 8px solid var(--main-color);
 }
 
-footer  section:last-of-type {
-  background-color: var(--black);
-  color: var(--white);
-  font-size: 0.7rem;
+footer section:first-of-type {
+    background-color: var(--main-black);
+    color: var(--white);
 }
 
+footer section:first-of-type h5 {
+    padding-bottom: 8px;
+    font-size: 1rem;
+    border-bottom: 3px solid var(--font-green-light);
+}
 
-footer  section:last-of-type i {
-  font-size: 1rem;
-  color: var(--font-green-light);
+footer section:first-of-type img {
+    width: inherit;
+}
+
+footer section:last-of-type {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 0.7rem;
+}
+
+footer section:last-of-type i {
+    font-size: 1rem;
+    color: var(--font-green-light);
 }
