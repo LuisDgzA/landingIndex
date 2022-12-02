@@ -280,10 +280,7 @@ body {
 
 
 
-footer > section:first-of-type {
-  background-color: var(--main-black);
-  color: var(--white);
-}
+
 
 
 
@@ -375,26 +372,29 @@ footer > section:first-of-type {
     width: 100%;
 }
 
+footer  section:first-of-type {
+  background-color: var(--main-black);
+  color: var(--white);
+}
 
-
-footer > section:first-of-type h5 {
+footer  section:first-of-type h5 {
   padding-bottom: 8px;
   font-size: 1rem;
   border-bottom: 3px solid var(--font-green-light);
 }
 
-footer > section:first-of-type img {
+footer  section:first-of-type img {
   width: inherit;
 }
 
-footer > section:last-of-type {
+footer  section:last-of-type {
   background-color: var(--black);
   color: var(--white);
   font-size: 0.7rem;
 }
 
 
-footer > section:last-of-type i {
+footer  section:last-of-type i {
   font-size: 1rem;
   color: var(--font-green-light);
 }
