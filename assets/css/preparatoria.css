@@ -1,0 +1,92 @@
+:root {
+    --gray-color: #808080;
+}
+#hero {
+    width: 100%;
+    height: 720px;
+    margin-top: 177px;
+    background: linear-gradient(
+            to right,
+            rgba(0, 2, 1, 0.9) 50%,
+            rgba(39, 115, 104, 0.588) 80%,
+            rgba(0, 0, 0, 0.271) 100%
+        ),
+        url("../img/backgroun-prepa.jpg") center;
+    background-position: right;
+    background-size: cover;
+    color: var(--white);
+}
+
+#mockup {
+    height: 1365px;
+    display: flex;
+    align-items: center;
+}
+
+.container-beneficios-programa {
+    width: 50%;
+    height: 1065px;
+    background-color: var(--gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios-programa {
+    width: 70%;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mockup-programa {
+    width: 50%;
+    height: 1152px;
+    background: url("../img/mockup-prepa.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-beneficio-programa {
+    display: flex;
+    gap: 3rem;
+}
+
+.icono-beneficio-programa img {
+    width: 3.5rem;
+}
+
+.container-ver-requisitos {
+    width: 1010px;
+    margin: auto;
+}
+
+.btn-ver-requisitos {
+    width: 100%;
+    background-color: var(--darker-main);
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 30px;
+    border-radius: 0.6rem;
+}
+
+.requisitos-desplegar {
+    width: 100%;
+    background-color: var(--darker-main);
+    height: 747px;
+    color: var(--white);
+    padding: 100px;
+    display: none;
+}
+
+.item-requisito {
+    font-size: 30px;
+}
+
+.mostrar {
+    display: block;
+}
