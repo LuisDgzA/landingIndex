@@ -27,25 +27,25 @@
                 <nav>
                 <ul class="d-flex justify-content-around">
                     <li>
-                    <a href="">Inicio</a>
+                        <a href="">Inicio</a>
                     </li>
                     <li>
-                    <a href="" id="navlinkEmpresasParticipantes">Empresas participantes</a>
+                        <a href="" id="navlinkEmpresasParticipantes">Empresas participantes</a>
                     </li>
                     <li>
-                    <a href="preparatoria.php">Preparatoria</a>
+                        <a href="preparatoria.php">Preparatoria</a>
                     </li>
                     <li>
-                    <a href="licenciatura.php">Licenciatura</a>
+                        <a href="licenciatura.php">Licenciatura</a>
                     </li>
                     <li>
-                    <a href="">Noticias</a>
+                        <a href="">Noticias</a>
                     </li>
                     <li>
-                    <a href="">Directorio</a>
+                        <a href="">Directorio</a>
                     </li>
                     <li>
-                    <a href="aliados.php">Aliados</a>
+                        <a href="aliados.php">Aliados</a>
                     </li>
                 </ul>
                 </nav>

@@ -123,6 +123,27 @@ body {
     margin: 0px;
 }
 
+.topbar-menu__navbar a {
+    padding: 0.7rem 0px;
+    border-bottom: 3px solid transparent;
+}
+
+.topbar-menu__navbar li {
+    display: block;
+    padding: 0.7rem 0px;
+}
+
+.topbar-menu__navbar a:hover {
+    border-bottom: 3px solid var(--font-green);
+    /* cursor: pointer; */
+}
+
+.topbar-menu__navbar a {
+    text-decoration: none;
+    color: var(--font-green);
+    font-weight: bold;
+}
+
 /*----------------- CAROUSEL ------------------*/
 
 #carousel {
