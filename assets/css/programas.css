@@ -1,7 +1,7 @@
 :root {
     --gray-color: #808080;
 }
-#hero {
+#heroPrepa {
     width: 100%;
     height: 720px;
     margin-top: 177px;
@@ -11,18 +11,42 @@
             rgba(39, 115, 104, 0.588) 80%,
             rgba(0, 0, 0, 0.271) 100%
         ),
-        url("../img/backgroun-prepa.jpg") center;
+        url("../img/background-prepa.jpg") center;
     background-position: right;
     background-size: cover;
     color: var(--white);
 }
 
-.container-hero {
+#heroLicenciatura {
+    width: 100%;
+    height: 720px;
+    margin-top: 177px;
+    background: linear-gradient(
+            to right,
+            rgba(0, 2, 1, 0.9) 50%,
+            rgba(39, 115, 104, 0.588) 80%,
+            rgba(0, 0, 0, 0.271) 100%
+        ),
+        url("../img/background-licenciatura.jpg") center;
+    background-position: right;
+    background-size: cover;
+    color: var(--white);
+}
+
+.container-hero-preparatoria {
     padding-top: 8rem;
 }
 
-.icono-hero {
+.container-hero-licenciatura {
+    padding-top: 5rem;
+}
+
+.icono-hero-preparatoria {
     width: 365px;
+}
+
+.icono-hero-licenciatura {
+    width: 167px;
 }
 
 .title-hero {
@@ -58,7 +82,7 @@
     gap: 2rem;
 }
 
-.mockup-programa {
+.mockup-programa-preparatoria {
     width: 50%;
     height: 1152px;
     background: url("../img/mockup-prepa.png");
@@ -66,9 +90,21 @@
     background-size: cover;
 }
 
+.mockup-programa-licenciatura {
+    width: 50%;
+    height: 1152px;
+    background: url("../img/mockup-licenciatura.png");
+    background-position: center;
+    background-size: cover;
+}
+
 .item-beneficio-programa {
     display: flex;
     gap: 3rem;
+}
+
+.icono-beneficio-programa {
+    width: 3.5rem;
 }
 
 .icono-beneficio-programa img {

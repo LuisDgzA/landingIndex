@@ -16,9 +16,9 @@
     <?php include_once("./header.php"); ?>
 
     <main>
-        <section id="hero">
-            <div class="container text-center container-hero">
-                <img class="icono-hero" src="./assets/iconos/preparatoria.svg" alt="">
+        <section id="heroPrepa">
+            <div class="container text-center container-hero-preparatoria">
+                <img class="icono-hero-preparatoria" src="./assets/iconos/preparatoria.svg" alt="">
                 <h2 class="text-center title-hero bold">¿Qué es Prepa Index?</h2>
                 <p class="text-center texto-hero">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aliquam esse itaque nisi! Repudiandae temporibus corporis illo tempore ea voluptatem accusamus beatae corrupti quae impedit ipsam est sequi a commodi, maiores optio recusandae culpa fugit deserunt eum consequuntur quo blanditiis.</p>
             </div>
@@ -48,9 +48,13 @@
                         <div class="icono-beneficio-programa"><img src="./assets/iconos/beneficios5.svg" alt=""></div>
                         <div><p class="f-20">Estudia en tus tiempos libres desde una computadora, tableta o celular con acceso a internet.</p></div>
                     </div>
+                    <div class="item-beneficio-programa">
+                        <div class="icono-beneficio-programa"></div>
+                        <div> <button class="button-gral">CONOCE MÁS</button></div>
+                    </div>
                 </div>                
             </div>
-            <div class="mockup-programa">
+            <div class="mockup-programa-preparatoria">
 
             </div>
         </section>

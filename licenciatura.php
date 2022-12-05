@@ -16,11 +16,12 @@
     <?php include_once("./header.php"); ?>
 
     <main>
-        <section id="hero">
-            <div class="container text-center container-hero">
-                <img class="icono-hero" src="./assets/iconos/preparatoria.svg" alt="">
-                <h2 class="text-center title-hero bold">¿Qué es Prepa Index?</h2>
-                <p class="text-center texto-hero">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aliquam esse itaque nisi! Repudiandae temporibus corporis illo tempore ea voluptatem accusamus beatae corrupti quae impedit ipsam est sequi a commodi, maiores optio recusandae culpa fugit deserunt eum consequuntur quo blanditiis.</p>
+        <section id="heroLicenciatura">
+            <div class="container text-center container-hero-licenciatura">
+                <img class="icono-hero-licenciatura" src="./assets/iconos/licenciatura.svg" alt="">
+                <h2 class="text-center title-hero bold mt-3">¿Qué es licenciatura en</h2>
+                <h2 class="text-center title-hero bold">Desarrollo General?</h2>
+                <p class="text-center texto-hero f-20">Es un programa universitario orientado a fortalecer tu criterio y formación en negocios por medio de un contenido relacionado con temas de liderazgo, trabajo en equipo, adaptabilidad a las nuevas tecnologías, inteligencia emocional, finanzas, calidad, servicio, toma de decisiones, entre otros.</p>
             </div>
         </section>
         <section id="mockup">
@@ -34,23 +35,28 @@
                     </div>
                     <div class="item-beneficio-programa">
                         <div class="icono-beneficio-programa"><img src="./assets/iconos/beneficios2.svg" alt=""></div>
-                        <div><p class="f-20">Estudia en tus tiempos libres desde una computadora, tableta o celular con acceso a internet.</p></div>
+                        <div><p class="f-20">Descuento vía nómina (pago de materias e inscripción).</p></div>
                     </div>
                     <div class="item-beneficio-programa">
                         <div class="icono-beneficio-programa"><img src="./assets/iconos/beneficios3.svg" alt=""></div>
-                        <div><p class="f-20">Estudia en tus tiempos libres desde una computadora, tableta o celular con acceso a internet.</p></div>
+                        <div><p class="f-20">Programa extensivo a familiares directos una vez que el colaborador cumpla 1 año en <strong>Index</strong></p></div>
                     </div>
                     <div class="item-beneficio-programa">
                         <div class="icono-beneficio-programa"><img src="./assets/iconos/beneficios4.svg" alt=""></div>
-                        <div><p class="f-20">Estudia en tus tiempos libres desde una computadora, tableta o celular con acceso a internet.</p></div>
+                        <div><p class="f-20">Contenidos diseñados para jóvenes y adultos que trabajan.</p></div>
                     </div>
                     <div class="item-beneficio-programa">
                         <div class="icono-beneficio-programa"><img src="./assets/iconos/beneficios5.svg" alt=""></div>
-                        <div><p class="f-20">Estudia en tus tiempos libres desde una computadora, tableta o celular con acceso a internet.</p></div>
+                        <div><p class="f-20">Si has dejado inconclusos tus estudios, puedes revalidar o hacer equivalentes las asignaturas de preparatoria que cursaste entregando tu certificado parcial de estudios.</p></div>
                     </div>
+                    <div class="item-beneficio-programa">
+                        <div class="icono-beneficio-programa"></div>
+                        <div> <button class="button-gral">CONOCE MÁS</button></div>
+                    </div>
+                   
                 </div>                
             </div>
-            <div class="mockup-programa">
+            <div class="mockup-programa-licenciatura">
 
             </div>
         </section>
