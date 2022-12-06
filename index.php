@@ -62,13 +62,72 @@
 					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-			<div class="menu-empresas-participantes border-red">
+			<div class="menu-empresas-participantes">
+				<div class="container-menu-empresas-participantes">
+					<div class="d-flex">
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Baja California</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Nuevo León</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Chihuahua</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Tamaulipas</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+					</div>
+					<div class="d-flex">
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Coahuila</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Sonora</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">San Luis Potosí</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes ">
+							<div class="col-background-empresas-participantes">
 
+							</div>
+						</div>						
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="intro" class="w-100">
 			<div class="intro-container">
-				<div class="intro__servicios border-red">
+				<div class="intro__servicios">
 					<div class="servicio-intro col-12 col-lg-3">
 						<div class="servicio-intro__icon">
 							<img src="./assets/iconos/servicio-comunidad.svg" alt="icono-comunidad">
@@ -474,9 +533,14 @@
 			<img src="./assets/img/logo-global-alumni.png" alt="" />
 			<img src="./assets/img/logo-chicago.png" alt="" />
 		</section>
+		
     </main>
     
     <?php include_once("./footer.php"); ?>
+
+	<div id="whatsappIcon">
+		<img src="./assets/iconos/icono-whatsapp.svg" alt="icono-whatsapp">
+	</div>
     
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>

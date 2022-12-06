@@ -199,6 +199,45 @@ body {
     top: 178px;
 }
 
+.container-menu-empresas-participantes{
+    height: calc(636px - 3rem);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container-menu-empresas-participantes > div{
+    height: 50%;
+}
+
+.col-empresas-participantes{
+    padding: 2rem;
+}
+
+.container-menu-empresas-participantes > div:last-child .col-empresas-participantes:last-child{
+    padding: 0px;
+}
+
+.container-menu-empresas-participantes > div .col-empresas-participantes:not(:last-child){
+    border-right: 2px solid #6f6f6f;
+}
+
+.col-background-empresas-participantes{
+    background: linear-gradient(
+            to right,
+            rgba(243, 243, 243, 1) 0%,
+            rgba(243, 243, 243, 0.8) 30%,
+            rgba(253, 253, 253, 0.7) 60%,
+            rgba(250, 250, 250, 0.7) 80%
+        ),
+        url("../img/background-empresas-participantes.jpg") center;
+    background-size: cover;
+    width: calc(100% + 3rem);
+    height: 100%;
+    position: relative;
+    left: -3rem;
+}
+
 .carousel-custom-container{
     height: 300px;
     top: 17%;

@@ -1,6 +1,6 @@
 const navlinkEmpresasParticipantes = document.getElementById("navlinkEmpresasParticipantes");
 
-const menuEmpresasParticipantes = document.querySelector(".menu-empresas-participantes");
+const menuEmpresasParticipantes = document.querySelector(".container-menu-empresas-participantes");
 
 const quitarMenu = document.querySelectorAll(".quitar-menu");
 
@@ -14,12 +14,14 @@ navlinkEmpresasParticipantes.addEventListener("mouseover", () => {
     // })
 });
 
-menuEmpresasParticipantes.addEventListener("mouseout", () => {
+menuEmpresasParticipantes.addEventListener("mouseleave", function(e){
+    e.stopPropagation();
     document.querySelector(".menu-empresas-participantes").style.display = "none";
 });
 
 quitarMenu.forEach((quitarMenuItem) => {
-    quitarMenuItem.addEventListener("mouseover", function () {
+    quitarMenuItem.addEventListener("mouseover", function (e) {
+        e.stopPropagation();
         if (document.querySelector(".menu-empresas-participantes").style.display == "block") {
             document.querySelector(".menu-empresas-participantes").style.display = "none";
         }
