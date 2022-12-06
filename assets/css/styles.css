@@ -114,6 +114,10 @@ body {
     width: 40%;
 }
 
+.topbar-menu__home img {
+    width: 11rem;
+}
+
 .topbar-menu__navbar {
     width: 60%;
 }
@@ -164,7 +168,8 @@ body {
 .intro-container {
     max-width: 1170px;
     width: 100%;
-    height: 590px;
+    min-height: 590px;
+    height: auto;
     margin: auto;
     position: relative;
     top: -3rem;
@@ -172,13 +177,14 @@ body {
 
 .intro__servicios {
     min-height: 140px;
-    height: 140px;
+    /* height: 140px; */
     background-color: var(--white);
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
+    flex-wrap: wrap;
 }
 
 .servicio-intro {
@@ -187,6 +193,11 @@ body {
     /* justify-content: center; */
     height: 100%;
     gap: 1rem;
+    height: calc(140px - 4rem);
+    padding-right: 0.6rem;
+}
+.servicio-intro:last-child {
+    padding-right: 0px;
 }
 
 .servicio-intro__icon {
@@ -227,6 +238,12 @@ body {
     display: flex;
 }
 
+.intro__imagenes-izquierda {
+    background-image: url("../img/futuro-izquierda.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .intro__imagenes-text {
     padding: 4rem 5rem;
     background-image: url("../img/img-intro-blur.png");
@@ -263,7 +280,8 @@ body {
 }
 
 #acercaBottom {
-    height: 400px;
+    min-height: 400px;
+    height: auto;
     background-color: var(--main-black);
 }
 
@@ -271,12 +289,18 @@ body {
     height: 100%;
     padding: 5rem 0px;
     color: var(--white);
+    flex-wrap: wrap;
+}
+
+.icono-acerca-bottom {
+    width: 2.5rem;
 }
 
 /* -------------  EVENTOS ----------*/
 
 #eventos {
-    height: 850px;
+    min-height: 850px;
+    height: auto;
     width: 100%;
 }
 
@@ -285,7 +309,9 @@ body {
 }
 
 .container-eventos-top {
-    height: 220px;
+    min-height: 220px;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 .card-eventos-top {
@@ -320,8 +346,10 @@ body {
 }
 
 .cards-eventos-bottom {
-    height: 480px;
+    min-height: 480px;
+    height: auto;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 #encuentraOferta {
@@ -367,6 +395,7 @@ body {
 .eventos-right__img {
     width: 100%;
     height: 100%;
+    min-height: 342px;
     background: url("../img/cartel-actividades.png");
     background-size: cover;
     background-position: top;
@@ -405,18 +434,29 @@ body {
     font-weight: bold;
 }
 
+.select-oferta {
+    border-radius: 0px;
+    background-color: rgba(13, 102, 93, 0.6);
+    color: var(--white);
+    border: 1px solid transparent;
+}
+
 /*------------- OFERTA -----------*/
 
 .containerOferta {
     position: relative;
     width: 100%;
-    max-width: 60%;
+    max-width: 65%;
     height: 100%;
     margin-left: auto;
 }
 
 .containerOferta form {
     padding: 0px 2rem 0px 0px;
+}
+
+.fila-select-oferta {
+    gap: 3rem;
 }
 
 .container-form-oferta {
@@ -438,7 +478,8 @@ body {
 
 #ofertaAcademicaEmpresas {
     width: 100%;
-    height: 1094px;
+    min-height: 1094px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -446,8 +487,11 @@ body {
 
 .container-img-oferta-academica {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
     gap: 50px;
+    width: 85%;
+    margin: auto;
 }
 
 .card-oferta-academica {
@@ -616,4 +660,50 @@ footer section:last-of-type {
 footer section:last-of-type i {
     font-size: 1rem;
     color: var(--font-green-light);
+}
+
+@media (max-width: 1399.98px) {
+    .containerOferta {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .container-form-oferta {
+        width: 800px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .intro__servicios {
+        width: 60%;
+        margin: auto;
+    }
+    .cards-eventos-bottom {
+        width: 60%;
+        margin: 50px auto 0px auto;
+        gap: 2rem;
+    }
+    .container-form-oferta {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .intro__imagenes-izquierda {
+        display: none;
+    }
+    #acerca {
+        margin-top: -3rem;
+    }
+    .container-form-oferta {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .intro__servicios {
+        width: 100%;
+    }
 }

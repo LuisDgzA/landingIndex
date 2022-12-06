@@ -21,101 +21,94 @@
 		</section>
 		<section id="intro" class="w-100">
 			<div class="intro-container">
-			<div class="intro__servicios">
-				<div class="servicio-intro col-3">
-					<div class="servicio-intro__icon">
-						<img src="./assets/iconos/servicio-comunidad.svg" alt="icono-comunidad">
+				<div class="intro__servicios border-red">
+					<div class="servicio-intro col-12 col-lg-3">
+						<div class="servicio-intro__icon">
+							<img src="./assets/iconos/servicio-comunidad.svg" alt="icono-comunidad">
+						</div>
+						<div class="servicio-intro__text">
+							<div class="servicio-intro__title">Comunidad estudiantil</div>
+							<div class="servicio-intro__description">
+							A través de la Sala de conversación en plataforma.
+							</div>
+						</div>
 					</div>
-					<div class="servicio-intro__text">
-						<div class="servicio-intro__title">Comunidad estudiantil</div>
-						<div class="servicio-intro__description">
-						A través de la Sala de conversación en plataforma.
+					<div class="servicio-intro col-12 col-lg-3">
+						<div class="servicio-intro__icon">
+							<img src="./assets/iconos/servicio-vida.svg" alt="icono-vida">
+						</div>
+						<div class="servicio-intro__text">
+							<div class="servicio-intro__title">Vida estudiantil</div>
+							<div class="servicio-intro__description">
+							Master Classes, talleres y comunidades de aprendizaje.
+							</div>
+						</div>
+					</div>
+					<div class="servicio-intro col-12 col-lg-3">
+						<div class="servicio-intro__icon">
+							<img src="./assets/iconos/servicio-biblioteca.svg" alt="icono-biblioteca">
+						</div>
+						<div class="servicio-intro__text">
+							<div class="servicio-intro__title">Biblioteca digital</div>
+							<div class="servicio-intro__description">
+							Biblioteca Virtual Pearson reconocida a nivel global.
+							</div>
+						</div>
+					</div>
+					<div class="servicio-intro col-12 col-lg-3">
+						<div class="servicio-intro__icon">
+							<img src="./assets/iconos/servicio-acompanamiento.svg" alt="icono-acompanamiento">
+						</div>
+						<div class="servicio-intro__text">
+							<div class="servicio-intro__title">Acompañamiento</div>
+							<div class="servicio-intro__description">
+							Atención y servicio al alumno(CASA).
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="servicio-intro col-3">
-					<div class="servicio-intro__icon">
-						<img src="./assets/iconos/servicio-vida.svg" alt="icono-vida">
-					</div>
-					<div class="servicio-intro__text">
-						<div class="servicio-intro__title">Vida estudiantil</div>
-						<div class="servicio-intro__description">
-						Master Classes, talleres y comunidades de aprendizaje.
-						</div>
-					</div>
-				</div>
-				<div class="servicio-intro col-3">
-					<div class="servicio-intro__icon">
-						<img src="./assets/iconos/servicio-biblioteca.svg" alt="icono-biblioteca">
-					</div>
-					<div class="servicio-intro__text">
-						<div class="servicio-intro__title">Biblioteca digital</div>
-						<div class="servicio-intro__description">
-						Biblioteca Virtual Pearson reconocida a nivel global.
-						</div>
-					</div>
-				</div>
-				<div class="servicio-intro col-3">
-					<div class="servicio-intro__icon">
-						<img src="./assets/iconos/servicio-acompanamiento.svg" alt="icono-acompanamiento">
-					</div>
-					<div class="servicio-intro__text">
-						<div class="servicio-intro__title">Acompañamientol</div>
-						<div class="servicio-intro__description">
-						Atención y servicio al alumno(CASA).
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="intro__imagenes border-red">
-				<div class="col-6">imagen</div>
-				<div class="intro__imagenes-text col-6">
-				<h2 class="bold">Transforma tu futuro</h2>
-				<h4>a traves de la educacion</h4>
+				<div class="intro__imagenes">
+					<div class="intro__imagenes-izquierda col-6">
 
-				<p class="mt-3">
-					En index hemos creado para ti la Universidad index que será el
-					mejor medio para que desarolles las competencias que te permitan
-					desempeñar con éxito tus actividades laborales y crecer de
-					manera personal y profesional.
-				</p>
-				<button class="button-gral" id="btnQuieroInscribirme">
-					Quiero inscribirme
-				</button>
+					</div>
+					<div class="intro__imagenes-text col-12 col-md-6">
+					<h2 class="bold">Transforma tu futuro</h2>
+					<h4>a traves de la educacion</h4>
+
+					<p class="mt-3">
+						En index hemos creado para ti la Universidad index que será el
+						mejor medio para que desarolles las competencias que te permitan
+						desempeñar con éxito tus actividades laborales y crecer de
+						manera personal y profesional.
+					</p>
+					<button class="button-gral" id="btnQuieroInscribirme">
+						Quiero inscribirme
+					</button>
+					</div>
 				</div>
-			</div>
 			</div>
 		</section>
 		<section id="acerca" class="">
-			<div class="col-5">
-			<img src="./assets/iconos/icono-home.svg" alt="" />
-			<h4 class="bold">Acerca de la</h4>
-			<h4 class="bold">Universidad Index</h4>
+			<div class="col-5 d-none d-lg-block">
+				<img src="./assets/iconos/icono-home.svg" alt="" />
+				<h4 class="bold">Acerca de la</h4>
+				<h4 class="bold">Universidad Index</h4>
 			</div>
-			<div class="col-7">
-			<h5>Forma parte de la universidad corporativa</h5>
-			<h5>más grande de Latinoamerica.</h5>
-			<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
-				aperiam labore eaque, nesciunt repellendus repellat eum corporis
-				enim natus perferendis sed recusandae, nulla sit amet magni sunt
-				itaque quos dolorum dignissimos deserunt iste reiciendis ipsam. Odit
-				aut error quas placeat!
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-				doloribus assumenda eveniet at natus molestias incidunt dolorum
-				dolores? Veniam, commodi! orem ipsum dolor sit amet consectetur
-				adipisicing elit. Voluptatum doloribus assumenda eveniet at natus
-				molestias incidunt dolorum dolores? Veniam, commod
-			</p>
-			<button class="button-gral">Descubre la Universidad Index</button>
+			<div class="col-12 col-lg-7">
+				<h5>Forma parte de la universidad corporativa</h5>
+				<h5>más grande de Latinoamerica.</h5>
+				<p>
+					En la Universidad Corporativa Index nos sentimos muy orgullosos de colaborar para que continúes tu desarrollo profesional a través de nuestros programas académicos de bachillerato, Licenciatura en Desarrollo Gerencial, Ingeniería en Desarrollo de Software y Maestría en dirección de negocios que, a través de AG College y la Universidad México Internacional, tienen reconocimiento de validez oficial de estudios por la Secretaría de Educación Pública. Te invitamos a que conozcas nuestros nuevos programas y te mantengas siempre informado(a), ya que nuestro propósito es seguir incrementando nuestra oferta académica para que siempre continúes aprendiendo.
+				</p>				
+				<button class="button-gral">Descubre la Universidad Index</button>
 			</div>
 		</section>
 		<section id="acercaBottom">
 			<div class="container d-flex contenedor-acerca">
-			<div class="col-3 d-flex flex-column card-items-acerca">
-				<div>icono</div>
+			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
+				<div>
+					<img class="icono-acerca-bottom" src="./assets/iconos/modelo-andragogico-blanco.svg" alt="icono-modelo-andragogico">
+				</div>
 				<div class="title-about-bottom bold">
 				<p class="m-0">Modelo</p>
 				<p class="m-0">andragógico</p>
@@ -124,8 +117,10 @@
 				Creado para adultos que trabajan.
 				</div>
 			</div>
-			<div class="col-3 d-flex flex-column card-items-acerca">
-				<div>icono</div>
+			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
+				<div>
+					<img class="icono-acerca-bottom" src="./assets/iconos/contenido-practico-blanco.svg" alt="icono-contenido-practico">
+				</div>
 				<div class="title-about-bottom bold">
 				<p class="m-0">Contenido</p>
 				<p class="m-0">práctico</p>
@@ -135,8 +130,10 @@
 				docentes especializados.
 				</div>
 			</div>
-			<div class="col-3 d-flex flex-column card-items-acerca">
-				<div>icono</div>
+			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
+				<div>
+					<img class="icono-acerca-bottom" src="./assets/iconos/recursos-didacticos-blanco.svg" alt="icono-recursos-didacticos">
+				</div>
 				<div class="title-about-bottom bold">
 				<p class="m-0">Recursos</p>
 				<p class="m-0">didácticos</p>
@@ -146,8 +143,10 @@
 				integradoras que facilitan el aprendizaje.
 				</div>
 			</div>
-			<div class="col-3 d-flex flex-column card-items-acerca">
-				<div>icono</div>
+			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
+				<div>
+					<img class="icono-acerca-bottom" src="./assets/iconos/modelo-flexible-blanco.svg" alt="icono-modelo-flexible">
+				</div>
 				<div class="title-about-bottom bold">
 				<p class="m-0">Modelo flexible</p>
 				<p class="m-0">asíncronico</p>
@@ -163,19 +162,19 @@
         <section id="eventos" class="">
             <div class="container contenedor-eventos">
                 <div class="d-flex w-100 container-eventos-top">
-                    <div class="col-4 card-eventos-top">
+                    <div class="col-12 col-xl-4 card-eventos-top">
                         <div class="text-center">
                             <span class="f-20 bold">Estudios oficiales</span>
                             <div class="mt-3">Comienza o revalida con nosotros tus estudios superiores oficiales.</div>
                         </div>
                     </div>
-                    <div class="col-4 card-eventos-top">
+                    <div class="col-12 col-xl-4 card-eventos-top">
                         <div class="text-center">
                             <span class="f-20 bold">Programas ejecutivos</span>
                             <div class="mt-3">Conoce nuestra oferta educativa y profundiza con estudios avanzados.</div>
                         </div>                        
                     </div>
-                    <div class="col-4 card-eventos-top">
+                    <div class="col-12 col-xl-4 card-eventos-top">
                         <div class="text-center">
                             <span class="f-20 bold">Másters</span>
                             <div class="mt-3">Desarrolla tu potencial en nuestras másters especializadas.</div>
@@ -183,8 +182,8 @@
                     </div>
                 </div>
 
-                <div class="d-flex w-100 cards-eventos-bottom border-red">
-                    <div class="col-4 eventos-left">
+                <div class="d-flex cards-eventos-bottom">
+                    <div class="col-12 col-lg-4 eventos-left">
                         <div class="eventos-left__img">
 
                         </div>
@@ -195,7 +194,7 @@
                         </div>
                         <div></div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="d-flex align-items-center justify-content-between">
                             <div class="f-20 bold header-proximos-eventos"><p>Próximos Eventos</p></div>
                             <div class="eventos-header-divider"></div>
@@ -240,7 +239,7 @@
                             Ver todos los eventos
                         </div>
                     </div>
-                    <div class="col-4 eventos-right">
+                    <div class="col-12 col-lg-4 eventos-right">
                         <div class="eventos-right__img">
 
                         </div>
@@ -251,13 +250,13 @@
         </section>
         <section id="encuentraOferta" class="">
             <div class="containerOferta">
-                <div class="container-form-oferta border-red">
+                <div class="container-form-oferta">
                     <h3 class="title-oferta">Oferta académica por empresa participante</h3>
                     <h2 class="description-oferta bold">Encuentra la oferta académica que ofrece tu institución.</h2>
                     <form>
-                        <div class="row">
+                        <div class="d-flex mb-4 fila-select-oferta">
                             <div class="col">
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select select-oferta" aria-label="Default select example">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -265,7 +264,7 @@
                                 </select>
                             </div>
                             <div class="col">
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select select-oferta" aria-label="Default select example">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -273,9 +272,9 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="d-flex mb-5 fila-select-oferta">
                             <div class="col">
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select select-oferta" aria-label="Default select example">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -283,7 +282,7 @@
                                 </select>
                             </div>
                             <div class="col">
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select select-oferta" aria-label="Default select example">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
@@ -301,7 +300,7 @@
 				<h2 class="text-center f-55 bold">Oferta académica por</h2>
 				<h2 class="text-center f-55 bold">empresa participante</h2>
 			</div>
-			<div class="container container-img-oferta-academica">
+			<div class="container-img-oferta-academica">
 				<div class="card-oferta-academica">
 					<div class="card-oferta-academica__img">
 					</div>
@@ -396,12 +395,12 @@
 			</div>
         </section>
 		<section id="estudiaAcademiaGlobal" class="">
-			<div class="col-5">
+			<div class="col-5 d-none d-lg-block">
 				<img src="./assets/img/logo-academia-global.png" alt="" />
 				<h4 class="bold">Estudia a través de</h4>
 				<h4 class="bold">Academia Global</h4>
 			</div>
-			<div class="col-7">
+			<div class="col-12 col-lg-7">
 				<h5>Aliados expertos en crear Instituciones Educativas</h5>
 				<h5>orientados al desarrollo de competencias.</h5>
 				<p>

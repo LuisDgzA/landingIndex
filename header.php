@@ -21,7 +21,7 @@
             </div>
             <div class="topbar-menu d-flex align-items-center">
             <div class="topbar-menu__home all-centered">
-                <img src="./assets/iconos/icono-home.svg" alt="" />
+                <img src="./assets/iconos/index-negro.svg" alt="icono-index" />
             </div>
             <div class="topbar-menu__navbar">
                 <nav>
