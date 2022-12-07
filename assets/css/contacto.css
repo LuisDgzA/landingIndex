@@ -1,0 +1,124 @@
+#aliados{
+    /* min-height: 1094px; */
+    margin-bottom: 5rem;
+}
+
+.container-aliados {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 732px);
+    gap: 1rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.card-aliados{
+    width: 732px;
+    height: 468px;
+    display: flex;
+}
+
+.card-aliados-text{
+    width: 45%;
+    flex: 1;
+    background-color: var(--main-black);
+    color: var(--white);
+    padding: 6rem 2rem 0px 3rem;
+    max-width: 45%;
+}
+
+.card-aliados-img{
+    width: 55%;
+    flex: 1;
+}
+
+.card-aliados:nth-child(1) .card-aliados-img{
+    background: url("../img/aliados-baja-california.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(2) .card-aliados-img{
+    background: url("../img/aliados-coahuila.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(3) .card-aliados-img{
+    background: url("../img/aliados-chihuahua.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(4) .card-aliados-img{
+    background: url("../img/aliados-nuevo-leon.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(5) .card-aliados-img{
+    background: url("../img/aliados-san-luis.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(6) .card-aliados-img{
+    background: url("../img/aliados-sonora.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(7) .card-aliados-img{
+    background: url("../img/aliados-tamaulipas.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados-img:hover{
+    scale: 1.1;
+}
+
+.texto-aliados{
+    font-size: 18px;
+}
+
+#contacto{
+    height: 932px;
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* justify-content: stretch; */
+}
+
+.container-form-contacto{
+    width: 60%;
+    /* flex: 1; */
+    padding: 6rem 4rem 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.form-contacto{
+    width: 700px;
+    position: relative;
+    margin-left: auto;
+}
+
+.container-contacto{
+    width: 40%;
+    background-color: var(--darker-green);
+    display: flex;
+    align-items: center;
+    padding: 6rem 0px 0px 4rem;
+
+    /* flex: 1; */
+}
+
+#btnBuscarCursosFormContacto{
+    width: 100%;
+}
+
+.datos-contacto{
+    color: var(--white);
+}

@@ -15,6 +15,7 @@
     --font-green: #0d665d;
     --font-green-light: #15b2aa;
     --darker-main: #547a72;
+    --darker-green: #17544A;
 }
 
 body {
@@ -52,6 +53,10 @@ body {
 
 .f-20 {
     font-size: 20px;
+}
+
+.f-30{
+    font-size: 30px;
 }
 
 .f-55 {
@@ -742,6 +747,12 @@ footer section:last-of-type i {
     color: var(--font-green-light);
 }
 
+#whatsappIcon{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
 @media (max-width: 1399.98px) {
     .containerOferta {
         max-width: 100%;
@@ -787,3 +798,5 @@ footer section:last-of-type i {
         width: 100%;
     }
 }
+
+

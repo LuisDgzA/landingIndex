@@ -27,7 +27,7 @@
                 <nav>
                     <ul class="d-flex justify-content-around">
                         <li>
-                            <a href="" class="quitar-menu">Inicio</a>
+                            <a href="./" class="quitar-menu">Inicio</a>
                         </li>
                         <li>
                             <a href="" class="" id="navlinkEmpresasParticipantes">Empresas participantes</a>
