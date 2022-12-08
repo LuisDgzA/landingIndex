@@ -58,6 +58,10 @@ body {
 
 }
 
+.f-18{
+    font-size: 18px;
+}
+
 .f-20 {
     font-size: 20px;
 }
@@ -223,6 +227,7 @@ body {
     position: absolute;
     z-index: 30;
     top: 178px;
+    color: #000;
 }
 
 .container-menu-empresas-participantes{
@@ -352,7 +357,7 @@ body {
 
 .intro__imagenes-text {
     padding: 4rem 5rem;
-    background-image: url("../img/img-intro-blur.png");
+    background-image: url("../img/futuro-derecha.png");
     background-position: center;
     background-size: cover;
     color: var(--white);

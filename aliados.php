@@ -17,10 +17,72 @@
 
     <main>
         <section id="heroAliados">
-            <div class="container text-center container-hero-aliados">
+            <div class="container text-center container-hero-aliados d-none d-lg-block">
                 <h2 class="text-center title-hero bold">Conoce a nuestros aliados</h2>
                 <p class="text-center texto-hero">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aliquam esse itaque nisi! Repudiandae temporibus corporis illo tempore ea voluptatem accusamus beatae corrupti quae impedit ipsam est sequi a commodi, maiores optio recusandae culpa fugit deserunt eum consequuntur quo blanditiis.</p>
             </div>
+			<div class="menu-empresas-participantes">
+				<div class="container-menu-empresas-participantes">
+					<div class="d-flex">
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Baja California</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Nuevo León</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Chihuahua</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Tamaulipas</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+					</div>
+					<div class="d-flex">
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Coahuila</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Sonora</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">San Luis Potosí</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes ">
+							<div class="col-background-empresas-participantes">
+
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
         </section>
         <section id="containerAliados">
             <div class="container-img-aliados">
@@ -214,7 +276,7 @@
 		<img src="./assets/iconos/icono-whatsapp.svg" alt="icono-whatsapp">
 	</div>
 
-
+	<script src="./assets/js/index.js"></script>
     <script src="./assets/js/vista-preparatoria.js"></script>
 </body>
 </html>

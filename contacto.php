@@ -214,18 +214,18 @@
                 </div>                
             </div>
         </section>        
-        <section id="contacto" class="border-red">
-            <div class="container-form-contacto border-red">
+        <section id="contacto" class="">
+            <div class="container-form-contacto">
                 <div class="form-contacto">
-                    <h2 class="text-center">Déjanos tu información</h2>
-                    <p class="text-center">Nos pondremos en contacto contigo</p>
+                    <h2 class="text-center title-form-contacto f-55">Déjanos tu información</h2>
+                    <p class="text-center f-20">Nos pondremos en contacto contigo</p>
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">Tu Nombre Completo:</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                     </div>
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">Tu Nombre Completo:</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                     </div>
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">Tu Nombre Completo:</label>
@@ -234,12 +234,16 @@
                     <button class="button-gral" id="btnBuscarCursosFormContacto">Buscar cursos</button>
                 </div>
             </div>
-            <div class="container-contacto border-red">
+            <div class="container-contacto">
                 <div class="datos-contacto">
-                    <h2>Contacto</h2>
-                    <p>contacto@universidad.index</p>
-                    <p>+52-123-4567 ó +52-123-4568</p>
-                    <p>Ponte en contacto con nosotros para Cualquier duda o aclaración.</p>
+                    <h2 class="f-55">Contacto</h2>
+                    <p class="f-18"><span class="me-3"><img class="icono-topbar-top" src="./assets/iconos/contacto-blanco.svg" alt="icono-contacto"></span> contacto@universidad.index</p>
+                    <p class="f-18"><span class="me-3"><img class="icono-topbar-top" src="./assets/iconos/llamada-blanco.svg" alt="icono-llamada"></span>+52-123-4567 ó +52-123-4568</p>
+                    <div class="d-flex f-18"><span class="me-3"><img class="icono-topbar-top" src="./assets/iconos/ponte-en-contacto.svg" alt="icono-ponte-en-contacto"></span><div>Ponte en contacto con nosotros para Cualquier duda o aclaración.</div></div>
+					<div class="mt-4">
+						<i class="fab fa-twitter f-20 me-3"></i>
+						<i class="fab fa-linkedin f-20"></i>
+					</div>
                 </div>
             </div>
         </section>

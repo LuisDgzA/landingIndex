@@ -60,9 +60,11 @@
 }
 
 #mockup {
-    height: 1365px;
+    min-height: 1365px;
     display: flex;
     align-items: center;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 .container-beneficios-programa {
@@ -112,8 +114,9 @@
 }
 
 .container-ver-requisitos {
-    width: 1010px;
+    max-width: 1010px;
     margin: auto;
+    width: 100%;
 }
 
 .btn-ver-requisitos {
@@ -141,7 +144,7 @@
     color: var(--white);
     padding: 100px;
     display: none;
-    position: absolute;
+    position: relative;
     z-index: 80;
 }
 
@@ -165,4 +168,25 @@
 
 .container-iconos-descarga-materiales > div {
     max-width: 170px;
+}
+
+
+@media (max-width: 991.98px) {
+    
+    .beneficios-programa{
+        width: 90%;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .container-beneficios-programa{
+        width: 100%;
+    }
+    .mockup-programa-licenciatura{
+        width: 100%;
+    }
+    .mockup-programa-preparatoria{
+        width: 100%;
+    }
 }

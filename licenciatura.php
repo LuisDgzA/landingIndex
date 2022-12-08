@@ -17,18 +17,82 @@
 
     <main>
         <section id="heroLicenciatura">
-            <div class="container text-center container-hero-licenciatura">
+            <div class="container text-center container-hero-licenciatura d-none d-lg-block">
                 <img class="icono-hero-licenciatura" src="./assets/iconos/licenciatura.svg" alt="">
                 <h2 class="text-center title-hero bold mt-3">¿Qué es licenciatura en</h2>
                 <h2 class="text-center title-hero bold">Desarrollo General?</h2>
                 <p class="text-center texto-hero f-20">Es un programa universitario orientado a fortalecer tu criterio y formación en negocios por medio de un contenido relacionado con temas de liderazgo, trabajo en equipo, adaptabilidad a las nuevas tecnologías, inteligencia emocional, finanzas, calidad, servicio, toma de decisiones, entre otros.</p>
             </div>
+            <div class="menu-empresas-participantes">
+				<div class="container-menu-empresas-participantes">
+					<div class="d-flex">
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Baja California</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Nuevo León</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Chihuahua</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Tamaulipas</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+					</div>
+					<div class="d-flex">
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Coahuila</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">Sonora</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes">
+							<p class="bold">San Luis Potosí</p>
+							<p>Organizaciones y empresas</p>
+							<p>Educación Superior</p>
+							<p>Educación Ejecutiva</p>
+							<p>Especiales</p>
+						</div>
+						<div class="col-3 col-empresas-participantes ">
+							<div class="col-background-empresas-participantes">
+
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
         </section>
         <section id="mockup">
             <div class="container-beneficios-programa">
                 <div class="beneficios-programa">
-                    <h2>Beneficios</h2>
-                    <h2>Prepa Index</h2>
+                    <div>
+                        <h2 class="f-55 bold">Beneficios</h2>
+                        <h2 class="f-55 bold">Licenciatura Index</h2>
+                    </div>
                     <div class="item-beneficio-programa">
                         <div class="icono-beneficio-programa"><img src="./assets/iconos/beneficios1.svg" alt=""></div>
                         <div><p class="f-20">Estudia en tus tiempos libres desde una computadora, tableta o celular con acceso a internet.</p></div>
@@ -105,7 +169,11 @@
 
     <?php include_once("./footer.php"); ?>
 
+    <div id="whatsappIcon">
+		<img src="./assets/iconos/icono-whatsapp.svg" alt="icono-whatsapp">
+	</div>
 
+	<script src="./assets/js/index.js"></script>
     <script src="./assets/js/vista-preparatoria.js"></script>
 </body>
 </html>
