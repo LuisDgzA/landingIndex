@@ -142,7 +142,19 @@
                 </div>
                 <div class="card-aliados">
                     <div class="card-aliados-text">
-                        <h3 class="f-30">Baja California</h3>
+                        <h3 class="f-30">Coahuila</h3>
+                        <div class="divider"></div>
+                        <p class="texto-aliados">Calle san luis De Coahuila Punto cometa.</p>
+                        <p class="texto-aliados">Teléfono: 01 789 45 58</p>
+                        <p class="texto-aliados">Email: correo@correo.com</p>
+                    </div>
+                    <div class="card-aliados-img">
+
+                    </div>
+                </div>
+                <div class="card-aliados">
+                    <div class="card-aliados-text">
+                        <h3 class="f-30">Chihuahua</h3>
                         <div class="divider"></div>
                         <p class="texto-aliados">Calle SN, Col. Centro Baja California. 40890</p>
                         <p class="texto-aliados">Teléfono: 01 789 45 58</p>
@@ -154,7 +166,7 @@
                 </div>
                 <div class="card-aliados">
                     <div class="card-aliados-text">
-                        <h3 class="f-30">Baja California</h3>
+                        <h3 class="f-30">Nuevo León</h3>
                         <div class="divider"></div>
                         <p class="texto-aliados">Calle SN, Col. Centro Baja California. 40890</p>
                         <p class="texto-aliados">Teléfono: 01 789 45 58</p>
@@ -166,7 +178,7 @@
                 </div>
                 <div class="card-aliados">
                     <div class="card-aliados-text">
-                        <h3 class="f-30">Baja California</h3>
+                        <h3 class="f-30">San Luis</h3>
                         <div class="divider"></div>
                         <p class="texto-aliados">Calle SN, Col. Centro Baja California. 40890</p>
                         <p class="texto-aliados">Teléfono: 01 789 45 58</p>
@@ -178,7 +190,7 @@
                 </div>
                 <div class="card-aliados">
                     <div class="card-aliados-text">
-                        <h3 class="f-30">Baja California</h3>
+                        <h3 class="f-30">Sonora</h3>
                         <div class="divider"></div>
                         <p class="texto-aliados">Calle SN, Col. Centro Baja California. 40890</p>
                         <p class="texto-aliados">Teléfono: 01 789 45 58</p>
@@ -190,19 +202,7 @@
                 </div>
                 <div class="card-aliados">
                     <div class="card-aliados-text">
-                        <h3 class="f-30">Baja California</h3>
-                        <div class="divider"></div>
-                        <p class="texto-aliados">Calle SN, Col. Centro Baja California. 40890</p>
-                        <p class="texto-aliados">Teléfono: 01 789 45 58</p>
-                        <p class="texto-aliados">Email: correo@correo.com</p>
-                    </div>
-                    <div class="card-aliados-img">
-
-                    </div>
-                </div>
-                <div class="card-aliados">
-                    <div class="card-aliados-text">
-                        <h3 class="f-30">Baja California</h3>
+                        <h3 class="f-30">Tamaulipas</h3>
                         <div class="divider"></div>
                         <p class="texto-aliados">Calle SN, Col. Centro Baja California. 40890</p>
                         <p class="texto-aliados">Teléfono: 01 789 45 58</p>

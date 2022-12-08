@@ -33,7 +33,7 @@ body {
 .all-centered {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .border-red {
@@ -47,8 +47,15 @@ body {
 .button-gral {
     background-color: var(--main-color);
     color: var(--white);
-    border: 0px;
+    border: 1px solid transparent;
     padding: 1rem 2rem;
+}
+
+.button-gral:hover{
+    background-color: var(--white);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+
 }
 
 .f-20 {
@@ -93,6 +100,20 @@ body {
     width: calc(100% - 192px);
 }
 
+.href-blanco-sin-estilos{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.href-blanco-sin-estilos:hover{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.icono-topbar-top{
+    width: 2rem;
+}
+
 #btnIngresoAlumnos {
     width: 192px;
     height: 100%;
@@ -101,7 +122,7 @@ body {
 
 .topbar-top__container {
     width: 100%;
-    padding-left: 207px;
+    /* padding-left: 207px; */
     padding-right: 3rem;
 }
 
@@ -116,7 +137,7 @@ body {
 }
 
 .topbar-menu__home {
-    width: 40%;
+    width: 35%;
 }
 
 .topbar-menu__home img {
@@ -124,7 +145,7 @@ body {
 }
 
 .topbar-menu__navbar {
-    width: 60%;
+    width: 65%;
 }
 
 .topbar-menu__navbar ul {
@@ -364,6 +385,13 @@ body {
     background: linear-gradient(to right, #F27121, #E94057, #8A2387);  */
 }
 
+.logo-texto-acerca{
+    margin-left: auto;
+    /* text-align: end; */
+    /* padding-right: 4rem; */
+    width: 300px;
+}
+
 #acercaBottom {
     min-height: 400px;
     height: auto;
@@ -565,9 +593,9 @@ body {
     width: 100%;
     min-height: 1094px;
     height: auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 50px; */
 }
 
 .container-img-oferta-academica {
@@ -711,10 +739,12 @@ body {
 
 #empresas {
     width: 100%;
-    height: 209px;
+    min-height: 209px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 footer {

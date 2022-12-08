@@ -1,0 +1,193 @@
+#heroAliados {
+    width: 100%;
+    height: 509px;
+    margin-top: 177px;
+    background: linear-gradient(
+            to right,
+            rgba(0, 2, 1, 0.9) 50%,
+            rgba(39, 115, 104, 0.588) 80%,
+            rgba(0, 0, 0, 0.271) 100%
+        ),
+        url("../img/background-aliados.jpg") center;
+    background-position: top;
+    background-size: cover;
+    color: var(--white);
+}
+
+.container-hero-aliados {
+    padding-top: 8rem;
+}
+
+.title-hero {
+    font-size: 70px;
+}
+
+.texto-hero {
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+#containerAliados {
+    width: 100%;
+    min-height: 1094px;
+    height: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container-img-aliados {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 150px;
+    width: 85%;
+    margin: auto;
+}
+
+.card-aliados {
+    height: 347px;
+    width: 300px;
+}
+
+.card-aliados__img {
+    height: 282px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    position: relative;
+}
+
+.aliados-img-over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card-aliados__img:hover .aliados-img-over{
+    visibility: hidden;
+
+}
+
+.card-aliados__buttons {
+    height: 65px;
+    padding: 0.5rem 0px;
+}
+
+.nombre-aliados{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-aliados:nth-child(1) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(2) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(3) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(4) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(5) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(6) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(7) .card-aliados__img{
+    background: linear-gradient(
+            to right,
+            rgba(39, 115, 104, 0.5) 0%,           
+            rgba(39, 115, 104, 0.5) 100%
+        ), url("../img/aliados7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(1) .aliados-img-over{
+    background: url("../img/aliados1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(2) .aliados-img-over{
+    background: url("../img/aliados2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(3) .aliados-img-over{
+    background: url("../img/aliados3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(4) .aliados-img-over{
+    background: url("../img/aliados4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(5) .aliados-img-over{
+    background: url("../img/aliados5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(6) .aliados-img-over{
+    background: url("../img/aliados6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-aliados:nth-child(7) .aliados-img-over{
+    background: url("../img/aliados7.jpg");
+    background-position: center;
+    background-size: cover;
+}

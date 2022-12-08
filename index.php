@@ -196,9 +196,11 @@
 		</section>
 		<section id="acerca" class="">
 			<div class="col-5 d-none d-lg-block">
-				<img src="./assets/iconos/icono-home.svg" alt="" />
-				<h4 class="bold">Acerca de la</h4>
-				<h4 class="bold">Universidad Index</h4>
+				<div class="logo-texto-acerca">
+					<img src="./assets/iconos/icono-home.svg" alt="" />
+					<h4 class="bold">Acerca de la</h4>
+					<h4 class="bold">Universidad Index</h4>
+				</div>
 			</div>
 			<div class="col-12 col-lg-7">
 				<h5>Forma parte de la universidad corporativa</h5>
@@ -263,8 +265,7 @@
 				</div>
 			</div>
 			</div>
-		</section>
-      
+		</section>      
         <section id="eventos" class="">
             <div class="container contenedor-eventos">
                 <div class="d-flex w-100 container-eventos-top">
@@ -502,27 +503,18 @@
         </section>
 		<section id="estudiaAcademiaGlobal" class="">
 			<div class="col-5 d-none d-lg-block">
-				<img src="./assets/img/logo-academia-global.png" alt="" />
-				<h4 class="bold">Estudia a través de</h4>
-				<h4 class="bold">Academia Global</h4>
+				<div class="logo-texto-acerca">
+					<img src="./assets/img/logo-academia-global.png" alt="" />
+					<h4 class="bold">Estudia a través de</h4>
+					<h4 class="bold">Academia Global</h4>
+				</div>
 			</div>
 			<div class="col-12 col-lg-7">
 				<h5>Aliados expertos en crear Instituciones Educativas</h5>
 				<h5>orientados al desarrollo de competencias.</h5>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
-					aperiam labore eaque, nesciunt repellendus repellat eum corporis
-					enim natus perferendis sed recusandae, nulla sit amet magni sunt
-					itaque quos dolorum dignissimos deserunt iste reiciendis ipsam. Odit
-					aut error quas placeat!
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-					doloribus assumenda eveniet at natus molestias incidunt dolorum
-					dolores? Veniam, commodi! orem ipsum dolor sit amet consectetur
-					adipisicing elit. Voluptatum doloribus assumenda eveniet at natus
-					molestias incidunt dolorum dolores? Veniam, commod
-				</p>
+				<p class="my-5">
+					Academia Global crea escuelas de formación directiva, gerencial y operativa con temática relacionada al liderazgo, calidad, servicio, ejecución, alta dirección, toma de decisiones, trabajo en equipo, innovación, inteligencia emocional, comunicación, entre otros temas de capacitación, a través de modelos virtuales, mixtos y presenciales.
+				</p>				
 				<button class="button-gral">Descubre la Universidad Index</button>
 			</div>
 		</section>
