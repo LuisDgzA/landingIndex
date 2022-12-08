@@ -36,11 +36,11 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>						
 					</div>
 				</div>
@@ -56,11 +56,11 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>				
 					</div>
 				</div>
@@ -76,11 +76,11 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>						
 					</div>
 				</div>
@@ -96,11 +96,11 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>						
 					</div>
 				</div>
@@ -116,11 +116,11 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>						
 					</div>
 				</div>
@@ -136,11 +136,11 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>						
 					</div>
 				</div>
@@ -156,11 +156,51 @@
 					</div>
 					<div class="card-aliados__buttons d-flex justify-content-between">
 						<div>
-							<p class="bold m-0">Baja California</p>
-							<p class="f-color-black-light m-0">Sector 1</p>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
 						</div>
-						<div class="container-ver-cursos">
-							<button class="btn-styless"><div class="btn-ver-cursos bold">Ver cursos</div></button>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
+						</div>						
+					</div>
+				</div>
+				<div class="card-aliados">
+					<div class="card-aliados__img">
+                        <div>
+                            <p class="nombre-aliados">nombre y apellido</p>
+                            <p class="correo-aliados">correo@index.com</p>
+                        </div>
+                        <div class="aliados-img-over">
+
+                        </div>
+					</div>
+					<div class="card-aliados__buttons d-flex justify-content-between">
+						<div>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
+						</div>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
+						</div>						
+					</div>
+				</div>
+				<div class="card-aliados">
+					<div class="card-aliados__img">
+                        <div>
+                            <p class="nombre-aliados">nombre y apellido</p>
+                            <p class="correo-aliados">correo@index.com</p>
+                        </div>
+                        <div class="aliados-img-over">
+
+                        </div>
+					</div>
+					<div class="card-aliados__buttons d-flex justify-content-between">
+						<div>
+							<p class="bold m-0">Nombre y apellido</p>
+							<p class="f-color-black-light m-0">Cargo aquí / Correo@index.com</p>
+						</div>
+						<div class="container-aliados">
+							<button class="btn-styless"><div class="btn-aliados-contacto bold"><img src="./assets/iconos/contacto-verde.svg" alt="icono-contacto"></div></button>
 						</div>						
 					</div>
 				</div>
