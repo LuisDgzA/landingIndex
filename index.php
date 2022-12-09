@@ -23,7 +23,9 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+						<img   src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+						<div id="gradiente">
+						</div>
 						<div class="carousel-caption d-none d-lg-block carousel-custom-container">
 							<h3 class="title-carousel">1r item</h3>
 							<div class="section-info-carousel mt-4">
@@ -214,52 +216,60 @@
 		<section id="acercaBottom">
 			<div class="container d-flex contenedor-acerca">
 			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
-				<div>
+				<div class="animation-down">
 					<img class="icono-acerca-bottom" src="./assets/iconos/modelo-andragogico-blanco.svg" alt="icono-modelo-andragogico">
 				</div>
 				<div class="title-about-bottom bold">
-				<p class="m-0">Modelo</p>
-				<p class="m-0">andragógico</p>
+				<div class="animation-down">
+					<p class="m-0">Modelo</p>
+					<p class="m-0">andragógico</p>
 				</div>
-				<div class="text-about-bottom">
+				</div>
+				<div class="text-about-bottom animation-up">
 				Creado para adultos que trabajan.
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
-				<div>
+				<div class="animation-down">
 					<img class="icono-acerca-bottom" src="./assets/iconos/contenido-practico-blanco.svg" alt="icono-contenido-practico">
 				</div>
 				<div class="title-about-bottom bold">
-				<p class="m-0">Contenido</p>
-				<p class="m-0">práctico</p>
+				<div class="animation-down">
+					<p class="m-0">Contenido</p>
+					<p class="m-0">práctico</p>
 				</div>
-				<div class="text-about-bottom">
+				</div>
+				<div class="text-about-bottom animation-up">
 				Asignaturas y cursos relevantes y actualizados desarrollados por
 				docentes especializados.
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
-				<div>
+				<div class="animation-down">
 					<img class="icono-acerca-bottom" src="./assets/iconos/recursos-didacticos-blanco.svg" alt="icono-recursos-didacticos">
 				</div>
 				<div class="title-about-bottom bold">
-				<p class="m-0">Recursos</p>
-				<p class="m-0">didácticos</p>
+				<div class="animation-down">
+					<p class="m-0">Recursos</p>
+					<p class="m-0">didácticos</p>
 				</div>
-				<div class="text-about-bottom">
+				</div>
+				<div class="text-about-bottom animation-up">
 				Accede a videos, casos, lecturas, foros de discusión y actividades
 				integradoras que facilitan el aprendizaje.
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-3 d-flex flex-column card-items-acerca">
-				<div>
+				<div class="animation-down">
 					<img class="icono-acerca-bottom" src="./assets/iconos/modelo-flexible-blanco.svg" alt="icono-modelo-flexible">
 				</div>
 				<div class="title-about-bottom bold">
-				<p class="m-0">Modelo flexible</p>
-				<p class="m-0">asíncronico</p>
+				<div class="animation-down">
+					<p class="m-0">Modelo flexible</p>
+					<p class="m-0">asíncronico</p>
 				</div>
-				<div class="text-about-bottom">
+				</div>
+				<div class="text-about-bottom animation-up">
 				Cada estudiante decide las horas y días de estudio y de
 				presentación de exámenes.
 				</div>
