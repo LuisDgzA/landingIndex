@@ -23,8 +23,8 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img   src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-						<div id="gradiente">
+						<!-- <img   src="./assets/img/carousel1.jpg" class="d-block w-100" alt="..."> -->
+						<div id="imgCarousel1">
 						</div>
 						<div class="carousel-caption d-none d-lg-block carousel-custom-container">
 							<h3 class="title-carousel">1r item</h3>
@@ -35,7 +35,8 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+						<div id="imgCarousel2">
+						</div>
 						<div class="carousel-caption d-none d-lg-block carousel-custom-container">
 							<h3 class="title-carousel">1r item</h3>
 							<div class="section-info-carousel mt-4">
@@ -45,7 +46,8 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+						<div id="imgCarousel3">
+						</div>
 						<div class="carousel-caption d-none d-lg-block carousel-custom-container">
 							<h3 class="title-carousel">1r item</h3>
 							<div class="section-info-carousel mt-4">
@@ -366,6 +368,14 @@
             </div>
         </section>
         <section id="encuentraOferta" class="">
+			<div class="container-imagenes-fondo">
+				<div class="encuentra-oferta-izquierda">
+				
+				</div>
+				<div class="encuentra-oferta-derecha">
+				
+				</div>
+			</div>
             <div class="containerOferta">
                 <div class="container-form-oferta">
                     <h3 class="title-oferta">Oferta académica por empresa participante</h3>

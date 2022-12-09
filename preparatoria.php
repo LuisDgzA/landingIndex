@@ -20,7 +20,7 @@
             <div class="container text-center container-hero-preparatoria d-none d-lg-block">
                 <img class="icono-hero-preparatoria" src="./assets/iconos/preparatoria.svg" alt="">
                 <h2 class="text-center title-hero bold">¿Qué es Prepa Index?</h2>
-                <p class="text-center texto-hero">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam aliquam esse itaque nisi! Repudiandae temporibus corporis illo tempore ea voluptatem accusamus beatae corrupti quae impedit ipsam est sequi a commodi, maiores optio recusandae culpa fugit deserunt eum consequuntur quo blanditiis.</p>
+                <p class="text-center texto-hero f-20">Prepa Index es un servicio académico, diseñado de forma exclusiva para colaboradores y su familia directa, que tiene el objetivo de participar en la formación educativa de nuestro personal y, con ello, en su desarrollo y el de su familia. Prepa Index se encuentra afiliada a AG College, una preparatoria virtual incorporada a la Dirección General del Bachillerato, que otorga validez oficial a nuestros estudios.</p>
             </div>
             <div class="menu-empresas-participantes">
 				<div class="container-menu-empresas-participantes">

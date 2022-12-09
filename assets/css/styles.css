@@ -188,7 +188,7 @@ body {
     margin-top: 177px;
 }
 
-.carousel-inner{
+.carousel-inner, .carousel-item{
     height: 636px;
 }
 
@@ -381,7 +381,7 @@ body {
             to right,
             rgba(0, 0, 0, 0.271) 0%,
             rgba(39, 115, 104, 0.588) 20%,
-            rgba(0, 2, 1, 0.9) 60%
+            rgba(0, 2, 1, 0.95) 60%
         ),
         url("../img/fondo-acerca.png") center;
     background-size: cover;
@@ -470,10 +470,6 @@ body {
     flex-wrap: wrap;
 }
 
-#encuentraOferta {
-    height: 672px;
-    width: 100%;
-}
 
 .title-about-bottom {
     font-size: 20px;
@@ -488,13 +484,35 @@ body {
     width: 100%;
     background: linear-gradient(
             to right,
-            rgba(0, 0, 0, 0.271) 0%,
-            rgba(39, 115, 104, 0.588) 20%,
-            rgba(0, 2, 1, 0.9) 60%
-        ),
-        url("../img/background-encuentra-oferta.jpg") center;
+            rgba(0, 0, 0, 0.3) 0%,
+            rgba(39, 115, 104, 0.6) 30%,
+            rgba(0, 2, 1, 0.97) 50%
+        );
     background-size: cover;
     color: var(--white);
+}
+
+.container-imagenes-fondo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.encuentra-oferta-izquierda{
+    width: 50%;
+    background: url("../img/background-encuentra-oferta.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.encuentra-oferta-derecha{
+    width: 50%;
+    background: url("../img/Logo-Blanco.svg");
+    background-size: cover;
+    background-position: left;
+    z-index: -1;
 }
 
 .card-items-acerca {
@@ -567,6 +585,7 @@ body {
     max-width: 65%;
     height: 100%;
     margin-left: auto;
+    top: -672px;
 }
 
 .containerOferta form {
@@ -799,13 +818,49 @@ footer section:last-of-type i {
     transition: 0.3s all;
 }
 
-#gradiente{
-    border: 10px solid red;
-    width: 300px;
-    height: 300px;
+#imgCarousel1{
+    width: 100%;
+    height: 100%;
     position: relative;
-    /* background: linear-gradient(to right,  rgba(0, 0, 0, 0.271) 0%,  rgba(0, 2, 1, 0.9) 100% ); */
-    /* -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.271) 0%,  rgba(0, 2, 1, 0.9) 100%); */
+    background: linear-gradient(
+            to right,
+            rgba(0, 2, 1, 0.9) 50%,
+            rgba(39, 115, 104, 0.588) 80%,
+            rgba(0, 0, 0, 0.271) 100%
+        ),
+        url("../img/carousel1.jpg") center;
+    background-position: top;
+    background-size: cover;    
+}
+
+#imgCarousel2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(
+            to right,
+            rgba(0, 2, 1, 0.9) 50%,
+            rgba(39, 115, 104, 0.588) 80%,
+            rgba(0, 0, 0, 0.271) 100%
+        ),
+        url("../img/carousel2.jpg") center;
+    background-position: top;
+    background-size: cover;    
+}
+
+#imgCarousel3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(
+            to right,
+            rgba(0, 2, 1, 0.9) 50%,
+            rgba(39, 115, 104, 0.588) 80%,
+            rgba(0, 0, 0, 0.271) 100%
+        ),
+        url("../img/carousel3.jpg") center;
+    background-position: center;
+    background-size: cover;    
 }
 
 @media (max-width: 1399.98px) {
