@@ -69,7 +69,8 @@
 
 .container-beneficios-programa {
     width: 50%;
-    height: 1065px;
+    min-height: 1065px;
+    height: auto;
     background-color: var(--gray-color);
     display: flex;
     justify-content: center;
@@ -182,11 +183,15 @@
 
     .container-beneficios-programa{
         width: 100%;
+        padding: 2rem 1rem;
     }
     .mockup-programa-licenciatura{
         width: 100%;
     }
     .mockup-programa-preparatoria{
         width: 100%;
+    }
+    .container-iconos-descarga-materiales {
+        gap: 3rem;
     }
 }

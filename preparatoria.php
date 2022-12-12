@@ -120,7 +120,7 @@
 
             </div>
         </section>
-        <section>
+        <section class="mt-4">
             <div class="container">
                 <h2 class="text-center f-55 bold">Requisitos</h2>
                 <p class="text-center f-20 mt-5">Un gran equipo de personal operativo y académico se encuentra involucrado en Prepa Index para ofercerte estudios de bachillerato flexibles y de alta calidad académica que te ayudarán a cursar tu preparatoria a tu propio ritmo y con la disponibilidad que esté en tus manos.</p>
@@ -151,11 +151,11 @@
             <h2 class="f-55 bold">y mapa curricular</h2>
             <p class="f-20 mt-4 bold">Descarga estos materiales</p>
             <div class="d-flex container-iconos-descarga-materiales">
-                <div class="col-6">
+                <div class="col-5 col-lg-6">
                     <img class="w-100" src="./assets/iconos/mapa-curricular.svg" alt="icono-mapa-curricular">
                     <p class="text-center mt-4 bold f-20">Mapa Curricular</p>
                 </div>
-                <div class="col-6">
+                <div class="col-5 col-lg-6">
                     <img class="w-100" src="./assets/iconos/ficha-tecnica.svg" alt="icono-ficha-tecnica">
                     <p class="text-center mt-4 bold f-20">Ficha técnica</p>
                 </div>
@@ -164,6 +164,10 @@
     </main>
 
     <?php include_once("./footer.php"); ?>
+
+    <div id="whatsappIcon">
+		<img src="./assets/iconos/icono-whatsapp.svg" alt="icono-whatsapp">
+	</div>
 
 	<script src="./assets/js/index.js"></script>
     <script src="./assets/js/vista-preparatoria.js"></script>
