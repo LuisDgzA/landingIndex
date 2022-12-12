@@ -209,7 +209,7 @@
 			<div class="col-12 col-lg-7">
 				<h5>Forma parte de la universidad corporativa</h5>
 				<h5>más grande de Latinoamerica.</h5>
-				<p>
+				<p class="mt-4 mb-3">
 					En la Universidad Corporativa Index nos sentimos muy orgullosos de colaborar para que continúes tu desarrollo profesional a través de nuestros programas académicos de bachillerato, Licenciatura en Desarrollo Gerencial, Ingeniería en Desarrollo de Software y Maestría en dirección de negocios que, a través de AG College y la Universidad México Internacional, tienen reconocimiento de validez oficial de estudios por la Secretaría de Educación Pública. Te invitamos a que conozcas nuestros nuevos programas y te mantengas siempre informado(a), ya que nuestro propósito es seguir incrementando nuestra oferta académica para que siempre continúes aprendiendo.
 				</p>				
 				<button class="button-gral">Descubre la Universidad Index</button>

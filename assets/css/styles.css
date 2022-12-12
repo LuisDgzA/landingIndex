@@ -371,7 +371,7 @@ body {
 /* -------------  ACERCA ----------*/
 
 #acerca {
-    height: 538px;
+    min-height: 538px;
     width: 100%;
     display: flex;
     padding: 4rem 6rem;
@@ -385,6 +385,7 @@ body {
         ),
         url("../img/fondo-acerca.png") center;
     background-size: cover;
+    height: auto;
     /* background: #8A2387;  
     background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
     background: linear-gradient(to right, #F27121, #E94057, #8A2387);  */
@@ -594,6 +595,7 @@ body {
 
 .fila-select-oferta {
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .container-form-oferta {
@@ -745,7 +747,8 @@ body {
 }
 
 #estudiaAcademiaGlobal {
-    height: 447px;
+    min-height: 447px;
+    height: auto;
     width: 100%;
     display: flex;
     padding: 4rem 6rem;
@@ -889,6 +892,9 @@ footer section:last-of-type i {
         width: 80%;
         margin: auto;
     }
+    .eventos-right__img {       
+        height: 450px;        
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -897,9 +903,40 @@ footer section:last-of-type i {
     }
     #acerca {
         margin-top: -3rem;
+        padding: 2rem 3rem;
     }
     .container-form-oferta {
         width: 100%;
+    }
+    .cards-eventos-bottom {
+        width: 100%;
+        margin: 50px auto 0px auto;
+        gap: 2rem;
+    }
+    .title-oferta {
+        font-size: 1.2rem;
+    }
+    .description-oferta {
+        font-size: 2rem;
+    }
+    .containerOferta {
+        padding: 2rem;
+    }
+    .fila-select-oferta .col{
+        width: 100%;
+        flex: none;
+    }
+    .containerOferta form {
+        padding: 0px;
+    }
+    .fila-select-oferta {
+        gap: 1rem;
+    }
+    .f-55{
+        font-size: 2rem;
+    }
+    #estudiaAcademiaGlobal {
+        padding: 2rem 3rem;        
     }
 }
 
