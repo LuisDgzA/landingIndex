@@ -81,6 +81,7 @@
 
 .texto-aliados{
     font-size: 18px;
+    word-break: break-all;
 }
 
 #contacto{
@@ -126,6 +127,20 @@
 }
 
 
+@media (max-width: 991.98px) {
+    
+    .beneficios-programa{
+        width: 90%;
+    }
+    .card-aliados{
+        width: 92%;
+        margin: auto;        
+    }
+    .container-aliados {        
+        grid-template-columns: repeat(auto-fill, 100%);        
+    }
+}
+
 @media (max-width: 767.98px) {
     .container-form-contacto{
         width: 100%;
@@ -135,5 +150,17 @@
     .container-contacto{
         width: 100%;
         padding: 4rem;
+    }
+
+    .texto-aliados{
+        font-size: 0.9rem;
+    }
+
+    .card-aliados-text{        
+        padding: 1rem 1rem 1rem 1rem;
+        
+    }
+    .card-aliados{
+        height: 350px;
     }
 }
