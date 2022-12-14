@@ -1,29 +1,15 @@
-const navlinkEmpresasParticipantes = document.getElementById("navlinkEmpresasParticipantes");
+const btnMenu = document.getElementById('topBarButtonMenu');
+const _fade = document.querySelector('.menu__movil__fade');
+const _menu = document.querySelector('.menu__movil');
 
-const menuEmpresasParticipantes = document.querySelector(".container-menu-empresas-participantes");
-
-const quitarMenu = document.querySelectorAll(".quitar-menu");
-
-navlinkEmpresasParticipantes.addEventListener("mouseover", () => {
-    document.querySelector(".menu-empresas-participantes").style.display = "block";
-    // document.querySelector(".topbar-menu").addEventListener("mouseout", function(e){
-    //     e.stopPropagation();
-    //     if (document.querySelector(".menu-empresas-participantes").style.display == "block") {
-    //         document.querySelector(".menu-empresas-participantes").style.display = "none";
-    //     }
-    // })
+btnMenu.addEventListener('click', () => {
+    _menu.classList.toggle('__show');
+    _fade.classList.toggle('__show');
+    document.body.style.overflowY = 'hidden';
 });
 
-menuEmpresasParticipantes.addEventListener("mouseleave", function(e){
-    e.stopPropagation();
-    document.querySelector(".menu-empresas-participantes").style.display = "none";
-});
-
-quitarMenu.forEach((quitarMenuItem) => {
-    quitarMenuItem.addEventListener("mouseover", function (e) {
-        e.stopPropagation();
-        if (document.querySelector(".menu-empresas-participantes").style.display == "block") {
-            document.querySelector(".menu-empresas-participantes").style.display = "none";
-        }
-    });
+_fade.addEventListener('click', () => {
+    _menu.classList.toggle('__show');
+    _fade.classList.toggle('__show');
+    document.body.style.overflowY = 'auto';
 });
