@@ -22,7 +22,7 @@
             </div>
             </div>
         
-            <div class="col-12 col-md-6 col-lg-3 mb-3 order-1 order-lg-2"">
+            <div class="col-12 col-md-6 col-lg-3 mb-3 order-1 order-lg-2">
                 <h5>Programas académicos</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
@@ -43,7 +43,7 @@
                 </ul>
             </div>
         
-            <div class="col-12 col-md-6 col-lg-2 mb-3 order-2 order-lg-3"">
+            <div class="col-12 col-md-6 col-lg-2 mb-3 order-2 order-lg-3">
                 <h5>Sectores</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
@@ -61,7 +61,7 @@
                 </ul>
             </div>
         
-            <div class="col-12 col-md-6 col-lg-2 mb-3 order-3 order-lg-4"">
+            <div class="col-12 col-md-6 col-lg-2 mb-3 order-3 order-lg-4">
                 <h5>Contacto</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">

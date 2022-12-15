@@ -302,7 +302,7 @@
                 </div>
 
                 <div class="d-flex cards-eventos-bottom">
-                    <div class="col-12 col-lg-4 eventos-left">
+                    <div class="col-12 col-xl-4 eventos-left">
                         <div class="eventos-left__img">
 
                         </div>
@@ -313,52 +313,67 @@
                         </div>
                         <div></div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-xl-4">
                         <div class="d-flex align-items-center justify-content-between">
                             <div class="f-20 bold header-proximos-eventos"><p>Próximos Eventos</p></div>
                             <div class="eventos-header-divider"></div>
                         </div>
                         <div class="evento">
-                            <div>
-                                07
+                            <div class="d-flex flex-column container-fecha-evento">
+								<span class="font-green-light">
+                                	07
+								</span>
+								<span class="font-green-light">
+									ENE
+								</span>
                             </div>
                             <div>
                                 <div class="title-evento">Plática de Inducción Bachillerato</div>
                                 <div class="d-flex">
-                                    <div>7:00 am - 11:30 pm</div>
-                                    <div>CEDIS TIJUANA</div>
+                                    <div class="me-3"><i class="far fa-clock me-2 font-green-light"></i> 7:00 am - 11:30 pm</div>
+                                    <div><i class="fas fa-map-marker-alt me-2 font-green-light"></i> CEDIS TIJUANA</div>
                                 </div>
                             </div>
                         </div>
                         <div class="evento">
-                            <div>
-                                07
+                            <div class="d-flex flex-column container-fecha-evento">
+								<span class="font-green-light">
+                                	07
+								</span>
+								<span class="font-green-light">
+									ENE
+								</span>
                             </div>
                             <div>
                                 <div class="title-evento">Plática de Inducción Bachillerato</div>
                                 <div class="d-flex">
-                                    <div>7:00 am - 11:30 pm</div>
-                                    <div>CEDIS TIJUANA</div>
+                                    <div class="me-3"><i class="far fa-clock me-2 font-green-light"></i> 7:00 am - 11:30 pm</div>
+                                    <div><i class="fas fa-map-marker-alt me-2 font-green-light"></i> CEDIS TIJUANA</div>
                                 </div>
                             </div>
                         </div>
                         <div class="evento">
-                            <div>
-                                07
+                            <div class="d-flex flex-column container-fecha-evento">
+								<span class="font-green-light">
+                                	07
+								</span>
+								<span class="font-green-light">
+									ENE
+								</span>
                             </div>
                             <div>
                                 <div class="title-evento">Plática de Inducción Bachillerato</div>
                                 <div class="d-flex">
-                                    <div>7:00 am - 11:30 pm</div>
-                                    <div>CEDIS TIJUANA</div>
+                                    <div class="me-3"><i class="far fa-clock me-2 font-green-light"></i> 7:00 am - 11:30 pm</div>
+                                    <div><i class="fas fa-map-marker-alt me-2 font-green-light"></i> CEDIS TIJUANA</div>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-5">
-                            Ver todos los eventos
+                            Ver todos los eventos <i class="far fa-arrow-right"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 eventos-right">
+                    <div class="col-12 col-xl-4 eventos-right">
                         <div class="eventos-right__img">
 
                         </div>
