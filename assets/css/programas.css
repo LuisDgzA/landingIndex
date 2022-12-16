@@ -180,7 +180,9 @@
 }
 
 @media (max-width: 767.98px) {
-
+    #heroPrepa {
+        margin-top: 1px;
+    }
     .container-beneficios-programa{
         width: 100%;
         padding: 2rem 1rem;
